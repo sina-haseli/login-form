@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Login form Reactjs:
+## Login form Reactjs:
 login form example for reactjs that can post data with axios (post) but still do not have token :)
 use below code in your Login action
 ```
