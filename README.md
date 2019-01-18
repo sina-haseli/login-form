@@ -12,7 +12,7 @@ const axios = Axios.create({
 
 
 export const login = (user) => dispatch => {
-    axios.post('https://deomi.liara.run/v1/users/login', user)
+    axios.post('URL-API', user)
         .then(res => {
             const { token } = res.data;
             localStorage.setItem('jwtToken', token);
@@ -51,7 +51,7 @@ export default setAuthToken;
 4.`npm start`<br/>
 
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
