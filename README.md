@@ -42,7 +42,7 @@ const setAuthToken = token => {
 
 export default setAuthToken;
 ```
-##How to use
+## How to use
 1.clone the repository<br/>
 2.`cd` into the project folder<br/>
 3.`npm install`<br/>
