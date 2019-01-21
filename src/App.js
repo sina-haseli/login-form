@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
+import logo_splash from "./Images/logo_splash.svg";
 
 class App extends Component {
   state = {
@@ -32,34 +33,36 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <form className="box" method="post">
-            <h1 className="login-header">Login</h1>
-            <input
-              defaultValue={this.state.email}
-              type="text"
-              name="email"
-              className="email"
-              placeholder="Username"
-              onChange={e => {
-                this.setState({ email: e.target.value });
-              }}
-            />
-            <input
-              defaultValue={this.state.password}
-              type="password"
-              name="password"
-              className="password"
-              placeholder="Password"
-              onChange={e => {
-                this.setState({ password: e.target.value });
-              }}
-            />
-            <input
-              type="submit"
-              name="Button"
-              onClick={e => this.handleClick(e)}
-            />
-          </form>
+          <div className="top-bar">
+            <img src={logo_splash} alt="yop" />
+            <form className="box" method="post">
+              <input
+                defaultValue={this.state.email}
+                type="text"
+                name="email"
+                className="email"
+                placeholder="Username"
+                onChange={e => {
+                  this.setState({ email: e.target.value });
+                }}
+              />
+              <input
+                defaultValue={this.state.password}
+                type="password"
+                name="password"
+                className="password"
+                placeholder="Password"
+                onChange={e => {
+                  this.setState({ password: e.target.value });
+                }}
+              />
+              <input
+                type="submit"
+                name="Button"
+                onClick={e => this.handleClick(e)}
+              />
+            </form>
+          </div>
         </div>
       </div>
     );

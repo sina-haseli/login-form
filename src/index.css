@@ -1,8 +1,8 @@
 body {
+  background-image: url("./Images/bg_graidents.svg");
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #34495e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
