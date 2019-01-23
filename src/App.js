@@ -4,8 +4,6 @@ import login from "./components/login/login.js";
 import reset from "./components/reset/reset";
 import "./App.css";
 
-//edit
-
 class App extends Component {
   render() {
     return (
