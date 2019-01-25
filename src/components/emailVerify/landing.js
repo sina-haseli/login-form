@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { notify } from "react-notify-toast";
-import Spinner from "./Spinner";
 import "./landing.css";
 import logo_splash from "../../Images/logo_splash.svg";
 //import { API_URL } from "../config";
