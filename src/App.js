@@ -5,7 +5,24 @@ import reset from "./components/reset/reset";
 import "./App.css";
 
 class App extends Component {
+  state = {
+    loading: true
+  };
+  componentDidMount() {
+    fetch(`${"API_URL"}/wake-up`)
+      .then(res => res.json())
+      .then(() => {
+        this.setState({ loading: false });
+      })
+      .catch(err => console.log(err));
+  }
+
   render() {
+    const content = () => {
+      if (this.state.loading) {
+        return <Spinner size="8x" spinning="spinning" />;
+      }
+    };
     return (
       <Fragment>
         <Switch>
