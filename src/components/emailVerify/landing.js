@@ -85,9 +85,17 @@ export default class Landing extends Component {
           */}
                 <button type="submit" name="Button" disabled={sendingEmail}>
                   {sendingEmail ? (
-                    <Spinner size="lg" spinning="spinning" />
+                    (
+                      <span className="loading">
+                        <i className="fa fa-refresh" />{" "}
+                      </span>
+                    ) && (
+                      <span className="check">
+                        <i className="fa fa-check" />{" "}
+                      </span>
+                    )
                   ) : (
-                    "Let's Go!"
+                    <span className="submit">Submit</span>
                   )}
                 </button>
               </div>
