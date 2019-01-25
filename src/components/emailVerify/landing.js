@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { notify } from "react-notify-toast";
 import Spinner from "./Spinner";
-import { API_URL } from "../config";
+//import { API_URL } from "../config";
 
 export default class Landing extends Component {
   // A bit of state to give the user feedback while their email address is being
@@ -16,7 +16,7 @@ export default class Landing extends Component {
 
     // Super interesting to me that you can mess with the upper and lower case
     // of the headers on the fetch call and the world does not explode.
-    fetch(`${API_URL}/email`, {
+    fetch(`${"asd"}/email`, {
       method: "pOSt",
       headers: {
         aCcePt: "aPpliCaTIon/JsOn",

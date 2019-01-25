@@ -2,6 +2,8 @@ import React, { Component, Fragment } from "react";
 import { Switch, Route } from "react-router-dom";
 import login from "./components/login/login.js";
 import reset from "./components/reset/reset";
+import landing from "./components/emailVerify/landing";
+import Spinner from "./components/emailVerify/Spinner";
 import "./App.css";
 
 class App extends Component {
@@ -28,6 +30,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={login} />
           <Route path="/reset" component={reset} />
+          <Route path="/email" component={landing} />
         </Switch>
       </Fragment>
     );
