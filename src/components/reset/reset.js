@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./reset.css";
 import logo_splash from "../../Images/logo_splash.svg";
 
@@ -22,11 +23,13 @@ class reset extends Component {
                 className="email"
                 placeholder="Email Address"
               />
-              <input
-                type="submit"
-                name="Button"
-                onClick={e => this.handleClick(e)}
-              />
+              <Link to="/confirm">
+                <input
+                  type="submit"
+                  name="Button"
+                  //onClick={e => this.handleClick(e)}
+                />
+              </Link>
             </form>
           </div>
         </div>

@@ -39,6 +39,7 @@
     height: 45px;
     margin-left: 126px;
     margin-top: 49px;
+    margin-bottom: auto !important;
     font-size: 13px;
     text-align: center;
     color: #333333;
@@ -49,7 +50,7 @@
     border: 0;
     background: none;
     display: block;
-    margin: 86px auto;
+    margin: 23% auto;
     text-align: center;
     border: 2px solid #3498db;
     padding: 14px 10px;
