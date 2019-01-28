@@ -1,7 +1,14 @@
 import React, { Component } from "react";
-import axios from "axios";
+import { connect } from "react-redux";
+import {
+  authenticate,
+  resetLoginState,
+  setLoginEmail,
+  setLoginPassword
+} from "./loginForm.action";
 import "./login.css";
 import logo_splash from "../../Images/logo_splash.svg";
+
 //edit
 
 class login extends Component {
@@ -9,43 +16,41 @@ class login extends Component {
     email: "",
     password: ""
   };
+
   handleClick(e) {
     const payload = {
       email: this.state.email,
       password: this.state.password
     };
-    axios
-      .post("https://deomi.liara.run/v1/users/login", payload)
-      .then(response => {
-        console.log(">>>>>", response);
-        if (response.data.code === 200) {
-          console.log(">>>>> login successful");
-        } else if (response.data.code === 204) {
-          console.log("username pass do not match");
-        } else {
-          console.log("user does not exists");
-        }
-      })
-      .catch(err => {
-        console.log(err, "error");
-      });
   }
+
+  handleSubmit = e => {
+    e.preventDefault();
+    this.props.authenticate(this.props.email, this.props.password);
+  };
+
+  handelOnEmailChange = e => {
+    this.props.setLoginEmail(e.target.value);
+  };
+
+  handleOnPasswordChange = e => {
+    this.props.setLoginPassword(e.target.value);
+  };
+
   render() {
     return (
       <div className="App">
         <div className="container">
           <div className="top-bar">
             <img src={logo_splash} alt="yop" />
-            <form className="box" method="post">
+            <form className="box" method="post" onSubmit={this.handleSubmit}>
               <input
                 defaultValue={this.state.email}
                 type="text"
                 name="email"
                 className="email"
                 placeholder="Username"
-                onChange={e => {
-                  this.setState({ email: e.target.value });
-                }}
+                onChange={this.handelOnEmailChange}
               />
               <input
                 defaultValue={this.state.password}
@@ -53,9 +58,7 @@ class login extends Component {
                 name="password"
                 className="password"
                 placeholder="Password"
-                onChange={e => {
-                  this.setState({ password: e.target.value });
-                }}
+                onChange={this.handleOnPasswordChange}
               />
               <input
                 type="submit"
@@ -69,5 +72,12 @@ class login extends Component {
     );
   }
 }
-
-export default login;
+const mapStateToProps = state => ({
+  email: state.login.state,
+  error: state.login.error,
+  password: state.login.password
+});
+export default connect(
+  mapStateToProps,
+  { authenticate, resetLoginState, setLoginEmail, setLoginPassword }
+)(login);
