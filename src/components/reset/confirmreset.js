@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo_splash from "../../Images/logo_splash.svg";
-import "./confirmreset.css";
+//import "./confirmreset.css";
 
 class confirmreset extends Component {
   render() {
