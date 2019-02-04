@@ -14,13 +14,13 @@ export const _setEmailError = error => ({
   error
 });
 
-export const resetEmailState = sendingEmail => ({
+export const resetEmailState = () => ({
   type: RESET_EMAIL_STATE
 });
 
 export const verified = sendingEmail => dispatch =>
   axios
-    .post("/api/email", { email })
+    .post("/api/email", { sendingEmail })
     .then(() => {
       dispatch(resetEmailState());
     })

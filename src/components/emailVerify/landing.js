@@ -1,16 +1,25 @@
 import React, { Component } from "react";
 import { notify } from "react-notify-toast";
+import { connect } from "react-redux";
 import "./landing.css";
 import logo_splash from "../../Images/logo_splash.svg";
+import { setEmailState, resetEmailState } from "./landing.action";
 //import { API_URL } from "../config";
 
-export default class Landing extends Component {
+class Landing extends Component {
   // A bit of state to give the user feedback while their email address is being
   // added to the User model on the server.
   state = {
-    sendingEmail: false
+    sendingEmail: ""
   };
 
+  handleEmailChange = e => {
+    this.props.setEmailState(e.target.value);
+  };
+
+  componentWillUnmount(e) {
+    this.props.resetEmailState(e.target.value);
+  }
   onSubmit = event => {
     event.preventDefault();
     this.setState({ sendingEmail: true });
@@ -68,6 +77,7 @@ export default class Landing extends Component {
                   type="text"
                   name="email"
                   placeholder="Email"
+                  onChange={this.handleEmailChange}
                   ref={input => (this.email = input)}
                   required
                 />
@@ -105,3 +115,12 @@ export default class Landing extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  sendingEmail: state.landing.sendingEmail
+});
+
+export default connect(
+  mapStateToProps,
+  { resetEmailState, setEmailState }
+)(Landing);
