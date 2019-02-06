@@ -10,7 +10,7 @@ import "./reset.css";
 import logo_splash from "../../Images/logo_splash.svg";
 
 class reset extends Component {
-  componentWillUnMount() {
+  componentWillUnmount() {
     this.props.resetForgotForm();
   }
   handleEmailChange = e => {
