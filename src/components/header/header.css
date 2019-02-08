@@ -1,0 +1,43 @@
+.header{
+    width:auto;
+    height: 80px;
+    opacity: 100%;
+    color: #005792;
+}
+
+.header img.logo{
+    width: 92px;
+    height: 29px;
+    margin:27px 53px auto auto;
+}
+
+.header-right{
+    width: auto;
+    height: 80px!important;
+    float: right;
+}
+.header p{
+    color: white!important;
+    width: 113px;
+    height: 21px;
+    margin:30px 258px 29px auto;
+    size: 18px;
+    alignment: left;
+}
+
+.header img.logo{
+    float:left;
+    width: 92px;
+    height: 29px;
+    margin:27px auto auto 53px ;
+}
+
+img.admin{
+    float: right;
+    display: block;
+    margin: 18px 193px 26px 30px;
+
+}
+
+
+

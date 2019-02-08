@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import login from "./components/login/login.js";
 import reset from "./components/reset/reset";
 import landing from "./components/emailVerify/landing";
+import header from "./components/header/header";
 import confirmreset from "./components/reset/confirmreset";
 import "./App.css";
 
@@ -35,6 +36,7 @@ class App extends Component {
           <Route exact path="/" component={login} />
           <Route path="/reset" component={reset} />
           <Route path="/email" component={landing} />
+          <Route path="/header" component={header} />
           <Route path="/confirm" component={confirmreset} />
         </Switch>
       </Fragment>
