@@ -32,11 +32,12 @@
     margin:27px auto auto 53px ;
 }
 
-img.admin{
+.admin{
+    position: relative;
+    width: 35px;
+    height: 35px;
     float: right;
-    display: block;
     margin: 18px 193px 26px 30px;
-
 }
 
 

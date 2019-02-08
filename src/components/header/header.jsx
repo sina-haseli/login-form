@@ -11,7 +11,7 @@ class Header extends Component {
 
         <div className="header-right">
           <p>April 12,2019</p>
-          <img src={admin} className="admin"/>
+          <img src={admin} alt="he" className="admin" />
         </div>
       </div>
     );
