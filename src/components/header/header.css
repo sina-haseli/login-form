@@ -40,5 +40,17 @@
     margin: -55px 193px 26px 30px;
 }
 
+.dropdown{
+    float: right;
+    alignment: left !important;
+    size: 18px;
+    color:white;
+    margin-right:-165px ;
+    margin-top: -62px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
