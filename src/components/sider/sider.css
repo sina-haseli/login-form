@@ -1,0 +1,56 @@
+.container{
+    height: fit-content;
+}
+.sideNav{
+    width: 200px;
+    height: 672px;
+    background-color: #0799D4;
+    display:block;
+    list-style: none;
+}
+.list{
+    padding-top: 150px;
+}
+li{
+    width: 200px;
+    height: 50px;
+}
+.active img{
+    width: 18px;
+    height: 13px;
+    margin-top: 187px;
+    margin-bottom: 19px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+.active p{
+    margin-top:-42px ;
+    margin-left: 32px;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    height: auto;
+    white-space: nowrap;
+}
+.active1 p{
+    margin-top:-42px ;
+    margin-left: 32px;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    height: auto;
+    white-space: nowrap;
+}
+
+.active1 img{
+    width: 18px;
+    height: 13px;
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
+
