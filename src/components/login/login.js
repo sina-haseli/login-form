@@ -9,13 +9,18 @@ import {
 } from "./loginForm.action";
 import "./login.css";
 import logo_splash from "../../Images/logo_splash.svg";
+import { FormErrors } from "./formErrors";
 
 //edit
 
 class login extends Component {
   state = {
     email: "",
-    password: ""
+    password: "",
+    formErrors: { email: "", password: "" },
+    emailValid: false,
+    passwordValid: false,
+    formValid: false
   };
 
   // handleValidation() {
@@ -48,6 +53,42 @@ class login extends Component {
   //   return formIsValid;
   // }
 
+  validateField(fieldName, value) {
+    let fieldValidateErrors = this.state.formErrors;
+    let emailValid = this.state.emailValid;
+    let passwordValid = this.state.passwordValid;
+
+    switch (fieldName) {
+      case "email":
+        emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
+        fieldValidateErrors.email = emailValid ? "" : "is invalid";
+        break;
+      case "password":
+        passwordValid = value.length >= 6;
+        fieldValidateErrors.password = passwordValid ? "" : "is too short";
+        break;
+      default:
+        break;
+    }
+    this.setState(
+      {
+        formErrors: fieldValidateErrors,
+        emailValid: emailValid,
+        passwordValid: passwordValid
+      },
+      this.validateForm
+    );
+  }
+
+  validateForm() {
+    this.setState({
+      formValid: this.state.emailValid && this.state.passwordValid
+    });
+  }
+
+  errorClass(error) {
+    return error.length === 0 ? "" : "has-error";
+  }
   handleClick(e) {
     const payload = {
       email: this.state.email,
@@ -61,11 +102,15 @@ class login extends Component {
   };
 
   handelOnEmailChange = e => {
-    this.props.setLoginEmail(e.target.value);
+    this.props.setLoginEmail(e.target.value, () => {
+      this.validateField(e.target.email, e.target.value);
+    });
   };
 
   handleOnPasswordChange = e => {
-    this.props.setLoginPassword(e.target.value);
+    this.props.setLoginPassword(e.target.value, () => {
+      this.validateField(e.target.password, e.target.value);
+    });
   };
 
   render() {
@@ -75,27 +120,35 @@ class login extends Component {
           <div className="top-bar">
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
-              <ul>
-                {this.props.error.messages.map((message, i) => (
-                  <li key={i}>{message}</li>
-                ))}
-              </ul>
-              <input
-                defaultValue={this.state.email}
-                type="text"
-                name="email"
-                className="email"
-                placeholder="Username"
-                onChange={this.handelOnEmailChange}
-              />
-              <input
-                defaultValue={this.state.password}
-                type="password"
-                name="password"
-                className="password"
-                placeholder="Password"
-                onChange={this.handleOnPasswordChange}
-              />
+              <FormErrors formErrors={this.state.formErrors} />
+              <div
+                className={`form-group ${this.errorClass(
+                  this.state.formErrors.email
+                )}`}
+              >
+                <input
+                  defaultValue={this.state.email}
+                  type="text"
+                  name="email"
+                  className="email"
+                  placeholder="Username"
+                  onChange={this.handelOnEmailChange}
+                />
+              </div>
+              <div
+                className={`form-group ${this.errorClass(
+                  this.state.formErrors.password
+                )}`}
+              >
+                <input
+                  defaultValue={this.state.password}
+                  type="password"
+                  name="password"
+                  className="password"
+                  placeholder="Password"
+                  onChange={this.handleOnPasswordChange}
+                />
+              </div>
               <input
                 type="submit"
                 name="Button"
