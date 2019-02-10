@@ -6,6 +6,7 @@ import landing from "./components/emailVerify/landing";
 import header from "./components/header/header.js";
 import mainpage from "./components/mainPage/mainPage";
 import confirmreset from "./components/reset/confirmreset";
+import login1 from "./components/login/login1";
 import "./App.css";
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
     return (
       <Fragment>
         <Switch>
+          <Route path="/login1" component={login1} />
           <Route path="/mainpage" component={mainpage} />
           <Route exact path="/" component={login} />
           <Route path="/reset" component={reset} />
