@@ -9,7 +9,6 @@ import {
 } from "./loginForm.action";
 import "./login.css";
 import logo_splash from "../../Images/logo_splash.svg";
-import { FormErrors } from "./formErrors";
 
 //edit
 
@@ -120,7 +119,6 @@ class login extends Component {
           <div className="top-bar">
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
-              <FormErrors formErrors={this.state.formErrors} />
               <div
                 className={`form-group ${this.errorClass(
                   this.state.formErrors.email
