@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import {
   authenticate,
@@ -16,6 +17,36 @@ class login extends Component {
     email: "",
     password: ""
   };
+
+  // handleValidation() {
+  //   let fields = this.state.email;
+  //   let errors = {};
+  //   let formIsValid = true;
+  //
+  //   //Email
+  //   if (!fields["email"]) {
+  //     formIsValid = false;
+  //     errors["email"] = "Cannot be empty";
+  //   }
+  //   if (typeof fields["email"] !== "undefined") {
+  //     let lastAtPos = fields["email"].lastIndexOf("@");
+  //     let lastDotPos = fields["email"].lastIndexOf(".");
+  //     if (
+  //       !(
+  //         lastAtPos < lastDotPos &&
+  //         lastAtPos > 0 &&
+  //         fields["email"].indexOf("@@") === -1 &&
+  //         lastDotPos > 2 &&
+  //         fields["email"].length - lastDotPos > 2
+  //       )
+  //     ) {
+  //       formIsValid = false;
+  //       errors["email"] = "Email is not valid";
+  //     }
+  //   }
+  //   this.setState({ errors: errors });
+  //   return formIsValid;
+  // }
 
   handleClick(e) {
     const payload = {
@@ -44,6 +75,11 @@ class login extends Component {
           <div className="top-bar">
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
+              <ul>
+                {this.props.error.messages.map((message, i) => (
+                  <li key={i}>{message}</li>
+                ))}
+              </ul>
               <input
                 defaultValue={this.state.email}
                 type="text"
@@ -72,6 +108,21 @@ class login extends Component {
     );
   }
 }
+
+login.propTypes = {
+  email: PropTypes.string,
+  error: PropTypes.shape({
+    fields: PropTypes.array.isRequired,
+    messages: PropTypes.array.isRequired
+  }).isRequired,
+  password: PropTypes.string,
+  // login action creators
+  authenticate: PropTypes.func.isRequired,
+  resetLoginState: PropTypes.func.isRequired,
+  setLoginEmail: PropTypes.func.isRequired,
+  setLoginPassword: PropTypes.func.isRequired
+};
+
 const mapStateToProps = state => ({
   email: state.login.state,
   error: state.login.error,
