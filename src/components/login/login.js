@@ -120,12 +120,12 @@ class login extends Component {
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
               <div className="EmailAlert">
+                //email verify
                 {!this.state.formErrors.email ? (
                   <Alert message="Success email" type="success" showIcon />
                 ) : (
                   <Alert message="Error" type="error" showIcon />
                 )}
-
                 <input
                   defaultValue={this.state.email}
                   type="text"

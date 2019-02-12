@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/emailVerify/landing.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/emailVerify/landing.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,10 +60,10 @@
         <counts>
           <entry key="css" value="1391" />
           <entry key="html" value="1" />
-          <entry key="js" value="5305" />
+          <entry key="js" value="5308" />
           <entry key="json" value="128" />
           <entry key="md" value="538" />
-          <entry key="txt" value="39" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -75,20 +71,20 @@
           <entry key="CSS" value="1391" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="128" />
-          <entry key="JavaScript" value="5304" />
+          <entry key="JavaScript" value="5307" />
           <entry key="Markdown" value="538" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/login/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+            <state relative-caret-position="230">
+              <caret line="123" column="77" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="77" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -96,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -147,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/components/login/loginForm.action.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/login/login.js" />
         <option value="$PROJECT_DIR$/src/components/login/login.css" />
+        <option value="$PROJECT_DIR$/src/components/login/login.js" />
       </list>
     </option>
   </component>
@@ -350,7 +346,7 @@
       <workItem from="1548599921934" duration="3293000" />
       <workItem from="1548622877333" duration="107000" />
       <workItem from="1548668012266" duration="3564000" />
-      <workItem from="1549965642041" duration="4332000" />
+      <workItem from="1549965642041" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <created>1547822551078</created>
@@ -492,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548602975683</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix tpyo">
+      <created>1549969989791</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1549969989791</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36650000" />
+    <option name="totallyTimeSpent" value="36926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -532,7 +535,8 @@
     <MESSAGE value="COMMIT" />
     <MESSAGE value="add reset pass form" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="fix tpyo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix tpyo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.428/style.css" />
@@ -700,20 +704,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="123" column="77" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
