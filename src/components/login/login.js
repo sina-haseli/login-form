@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { Alert } from "antd";
 import { connect } from "react-redux";
 import {
   authenticate,
@@ -58,7 +59,7 @@ class login extends Component {
     let passwordValid = this.state.passwordValid;
     //validate
     switch (fieldName) {
-      case "email":
+      case this.state.email:
         emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
         fieldValidateErrors.email = emailValid ? "" : "is invalid";
         break;
@@ -101,9 +102,8 @@ class login extends Component {
   };
 
   handelOnEmailChange = e => {
-    this.props.setLoginEmail(e.target.value, () => {
-      this.validateField(e.target.email, e.target.value);
-    });
+    this.props.setLoginEmail(e.target.value);
+    this.validateField(this.state.email, e.target.value);
   };
 
   handleOnPasswordChange = e => {
@@ -119,11 +119,13 @@ class login extends Component {
           <div className="top-bar">
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
-              <div
-                className={`form-group ${this.errorClass(
-                  this.state.formErrors.email
-                )}`}
-              >
+              <div className="EmailAlert">
+                {!this.state.formErrors.email ? (
+                  <Alert message="Success email" type="success" showIcon />
+                ) : (
+                  <Alert message="Error" type="error" showIcon />
+                )}
+
                 <input
                   defaultValue={this.state.email}
                   type="text"
@@ -133,20 +135,16 @@ class login extends Component {
                   onChange={this.handelOnEmailChange}
                 />
               </div>
-              <div
-                className={`form-group ${this.errorClass(
-                  this.state.formErrors.password
-                )}`}
-              >
-                <input
-                  defaultValue={this.state.password}
-                  type="password"
-                  name="password"
-                  className="password"
-                  placeholder="Password"
-                  onChange={this.handleOnPasswordChange}
-                />
-              </div>
+
+              <input
+                defaultValue={this.state.password}
+                type="password"
+                name="password"
+                className="password"
+                placeholder="Password"
+                onChange={this.handleOnPasswordChange}
+              />
+
               <input
                 type="submit"
                 name="Button"
