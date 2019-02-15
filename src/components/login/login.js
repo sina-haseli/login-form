@@ -63,7 +63,7 @@ class login extends Component {
         emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
         fieldValidateErrors.email = emailValid ? "" : "is invalid";
         break;
-      case "password":
+      case this.state.password:
         passwordValid = value.length >= 6;
         fieldValidateErrors.password = passwordValid ? "" : "is too short";
         break;
@@ -107,9 +107,8 @@ class login extends Component {
   };
 
   handleOnPasswordChange = e => {
-    this.props.setLoginPassword(e.target.value, () => {
-      this.validateField(e.target.password, e.target.value);
-    });
+    this.props.setLoginPassword(e.target.value);
+    this.validateField(this.state.password, e.target.value);
   };
 
   render() {
@@ -120,11 +119,20 @@ class login extends Component {
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
               <div className="EmailAlert">
-                //email verify
                 {!this.state.formErrors.email ? (
-                  <Alert message="Success email" type="success" showIcon />
+                  <Alert
+                    message="Success"
+                    type="success"
+                    showIcon
+                    className="alert"
+                  />
                 ) : (
-                  <Alert message="Error" type="error" showIcon />
+                  <Alert
+                    message="Error"
+                    type="error"
+                    showIcon
+                    className="alert"
+                  />
                 )}
                 <input
                   defaultValue={this.state.email}
@@ -144,7 +152,6 @@ class login extends Component {
                 placeholder="Password"
                 onChange={this.handleOnPasswordChange}
               />
-
               <input
                 type="submit"
                 name="Button"

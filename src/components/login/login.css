@@ -67,3 +67,10 @@
 }
 
 
+.alert{
+    position: relative;
+    top: 55px;
+    margin: 0 160px !important;
+    width: 200px;
+    display: inline-block;
+}
