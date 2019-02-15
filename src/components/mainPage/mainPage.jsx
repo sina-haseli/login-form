@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../header/header'
 import Sider from '../sider/sider';
+import './mainPage.css';
 
 
 class MainPage extends Component {
@@ -11,7 +12,7 @@ class MainPage extends Component {
                 <div className="app-body">
                     <Sider/>
                     <div className="content">
-
+                        <p>asdasddsa</p>
                     </div>
                 </div>
             </div>
