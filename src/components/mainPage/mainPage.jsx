@@ -19,7 +19,7 @@ class MainPage extends Component {
                         <ul>
                             <li className="li1">
                                 123<br/>
-                                <hr size="50px"/>
+                                <hr/>
                                 <br/>
                                 <h3>Organization</h3></li>
                             <li className="li2">
