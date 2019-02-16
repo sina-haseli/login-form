@@ -46,6 +46,7 @@
     left: 237px;
     padding: 50px;
     background-color: white;
+    text-align: center;
 }
 .li2{
     margin-right: 20px;
@@ -55,6 +56,7 @@
     left: 457px;
     padding: 50px;
     background-color: white;
+    text-align: center;
 }
 .li3{
     margin-right: 20px;
@@ -64,6 +66,7 @@
     left: 677px;
     padding: 50px;
     background-color: white;
+    text-align: center;
 }
 .li4{
     display: inline-block;
@@ -72,4 +75,13 @@
     left: 897px;
     padding: 50px;
     background-color: white;
+    text-align: center;
+}
+
+hr{
+    color: #005792;
+    border: none;
+    height: 3px;
+    background-color: #005792;
+    margin-top: 41px;
 }
