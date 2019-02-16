@@ -21,6 +21,7 @@
 }
 .list li:hover{
     background-color:#2774A0 ;
+    border-radius: 5px;
 }
 
 .active img{
