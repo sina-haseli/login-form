@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,21 +60,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3191" />
+          <entry key="css" value="3245" />
           <entry key="html" value="1" />
           <entry key="js" value="5608" />
           <entry key="json" value="128" />
-          <entry key="jsx" value="661" />
+          <entry key="jsx" value="708" />
           <entry key="md" value="538" />
           <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3191" />
+          <entry key="CSS" value="3245" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="128" />
-          <entry key="JSX Harmony" value="661" />
+          <entry key="JSX Harmony" value="708" />
           <entry key="JavaScript" value="5607" />
           <entry key="Markdown" value="538" />
           <entry key="PLAIN_TEXT" value="47" />
@@ -89,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+            <state relative-caret-position="334">
+              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -101,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="125" column="7" lean-forward="true" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+            <state relative-caret-position="299">
+              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -178,8 +176,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="22" />
+    <option name="x" value="908" />
+    <option name="y" value="39" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -374,7 +372,7 @@
       <workItem from="1550227183260" duration="2657000" />
       <workItem from="1550337686610" duration="3595000" />
       <workItem from="1550345531005" duration="33000" />
-      <workItem from="1550404778462" duration="6965000" />
+      <workItem from="1550404778462" duration="7524000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <created>1547822551078</created>
@@ -593,14 +591,28 @@
       <option name="project" value="LOCAL" />
       <updated>1550411246755</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fix tpyo">
+      <created>1550413341035</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1550413341035</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix tpyo">
+      <created>1550413662199</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1550413662199</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50328000" />
+    <option name="totallyTimeSpent" value="50887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="925" y="17" width="974" height="1047" extended-state="0" />
+    <frame x="908" y="39" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24038461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -859,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+        <state relative-caret-position="334">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -869,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="125" column="7" lean-forward="true" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+        <state relative-caret-position="299">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
