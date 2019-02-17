@@ -24,15 +24,15 @@ class MainPage extends Component {
                                 <hr/>
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
-                                    <span className="span1">asd</span>
+                                    <span className="span1">Mike</span>
                                     <p className="p2">Email Address</p>
-                                    <span className="span2">asd</span>
+                                    <span className="span2">mike.smith@gmail.com</span>
                                     <p className="p3">Last Name</p>
-                                    <span className="span3">asd</span>
+                                    <span className="span3">Smith</span>
                                     <p className="p4">Password</p>
-                                    <span className="span4">asd</span>
+                                    <span className="span4">*******</span>
                                     <p className="p5">Administration Level</p>
-                                    <span className="span5">asd</span>
+                                    <span className="span5">Super Admin</span>
 
                                 </div>
                             </div>

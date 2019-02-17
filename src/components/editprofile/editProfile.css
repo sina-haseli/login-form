@@ -36,8 +36,9 @@
 }
 
 .adminClass{
+    border-radius: 5px;
     width: 1576px;
-    height: 409px;
+    height: 453px;
     background-color: white;
     margin-top: 177px;
     margin-left: 40px;
@@ -107,37 +108,52 @@
 .p5{
     position: absolute;
     display: block;
-    top: -95px!important;
+    top: -114px!important;
     left: 74px!important;
     color: #696969;
 }
 .span1{
+    font-family: Roboto-Medium, serif ;
+    font-size: large;
+    color: #005792;
     position: relative;
     display: inline-block;
     top: -32px;
     left: 72px;
 }
 .span2{
+    font-family: Roboto-Medium, serif ;
+    font-size: large;
+    color: #005792;
     position: relative;
     display: inline-block;
     top: -88px;
     left: 227px;
 }
 .span3{
+    font-family: Roboto-Medium, serif ;
+    font-size: large;
+    color: #005792;
     position: relative;
     display: inline-block;
     top: -69px;
     left: 70px;
 }
 .span4{
+    font-family: Roboto-Medium, serif ;
+    font-size: large;
+    color: #005792;
     position: relative;
     display: inline-block;
     top: -124px;
     left: 229px;
 }
 .span5{
+    font-family: Roboto-Medium, serif ;
+    font-size: large;
+    color: #005792;
     position: relative;
     display: inline-block;
-    top: -97px;
+    top: -126px;
     left: 74px;
 }
