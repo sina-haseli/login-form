@@ -67,5 +67,77 @@
     background-color: #0799D4;
     position: relative;
     top: 28px;
-    left: 1468px;
+    left: 1447px;
+}
+.adminClass hr{
+    border-top: 15px;
+    position: relative;
+    color: #333333;
+    background-color: #333333;
+    margin:73px ;
+}
+.p1{
+    position: absolute;
+    display: block;
+    top: -30px!important;
+    left: 74px!important;
+    color: #696969;
+}
+.p2{
+    position: absolute;
+    display: block;
+    top: -88px!important;
+    left: 229px!important;
+    color: #696969;
+}
+.p3{
+    position: absolute;
+    display: block;
+    top: -62px!important;
+    left: 74px!important;
+    color: #696969;
+}
+.p4{
+    position: absolute;
+    display: block;
+    top: -118px!important;
+    left: 228px!important;
+    color: #696969;
+}
+.p5{
+    position: absolute;
+    display: block;
+    top: -95px!important;
+    left: 74px!important;
+    color: #696969;
+}
+.span1{
+    position: relative;
+    display: inline-block;
+    top: -32px;
+    left: 72px;
+}
+.span2{
+    position: relative;
+    display: inline-block;
+    top: -88px;
+    left: 227px;
+}
+.span3{
+    position: relative;
+    display: inline-block;
+    top: -69px;
+    left: 70px;
+}
+.span4{
+    position: relative;
+    display: inline-block;
+    top: -124px;
+    left: 229px;
+}
+.span5{
+    position: relative;
+    display: inline-block;
+    top: -97px;
+    left: 74px;
 }
