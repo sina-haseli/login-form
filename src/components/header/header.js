@@ -3,18 +3,19 @@ import "./header.css";
 import "antd/dist/antd.css";
 import admin from "../../Images/user-circle-o.svg";
 import logo from "../../Images/logo_splash.svg";
+import logout from "../../Images/icon_logout.svg";
 import { Menu, Dropdown, Icon } from "antd";
 
 const menu = (
   <Menu>
     <Menu.Item key="0">
-      <a href="http://www.alipay.com/">1st menu item</a>
-    </Menu.Item>
-    <Menu.Item key="1">
-      <a href="http://www.taobao.com/">2nd menu item</a>
+      <a href="../editprofile/editProfile.jsx">Edit Profile</a>
     </Menu.Item>
     <Menu.Divider />
-    <Menu.Item key="3">3rd menu item</Menu.Item>
+    <Menu.Item key="1">
+      <a href="http://www.taobao.com/">Logout</a>
+      <img src={logout} />
+    </Menu.Item>
   </Menu>
 );
 

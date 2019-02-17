@@ -1,12 +1,16 @@
 .content{
     position: static;
-    height: 674px;
+    height: 100vh;
     display: block;
     margin-top: -686px;
     margin-left:200px;
     background-color: #ECECEC;
+    overflow: auto;
+
 }
 .content h1{
+    font-family: 'Roboto-Medium', serif;
+    font-size: 30px;
     color: #005792;
     position: absolute;
     top: 115px;
@@ -47,6 +51,7 @@
     padding: 50px;
     background-color: white;
     text-align: center;
+    font-family: Roboto-Bold, serif;
 }
 .li2{
     margin-right: 20px;
@@ -57,6 +62,7 @@
     padding: 50px;
     background-color: white;
     text-align: center;
+    font-family: Roboto-Bold, serif;
 }
 .li3{
     margin-right: 20px;
@@ -67,6 +73,7 @@
     padding: 50px;
     background-color: white;
     text-align: center;
+    font-family: Roboto-Bold, serif;
 }
 .li4{
     display: inline-block;
@@ -76,6 +83,7 @@
     padding: 50px;
     background-color: white;
     text-align: center;
+    font-family: Roboto-Bold, serif;
 }
 
 hr{
@@ -84,4 +92,37 @@ hr{
     height: 3px;
     background-color: #005792;
     margin-top: 41px;
+}
+
+.li1 span{
+    font-family: 'Roboto', fantasy;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #005792;
+    position: absolute;
+    left: 111px;
+}
+.li2 span{
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #005792;
+    position: absolute;
+    left: 337px;
+}
+.li3 span{
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #005792;
+    position: absolute;
+    left: 569px;
+}
+.li4 span{
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #005792;
+    position: absolute;
+    left: 791px;
 }

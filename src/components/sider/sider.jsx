@@ -12,7 +12,7 @@ class Sider extends Component {
             <div className="container">
                 <ul className="sideNav">
                    <div className="list">
-                    <li className="active1"><a href="#"><img src={dashboard}/><p>Dashboard</p></a></li>
+                    <li className="active1"><a href="../mainPage/mainPage.jsx"><img src={dashboard}/><p>Dashboard</p></a></li>
                     <li className="active1"><a href="#"><img src={book}/><p>Organisations</p></a></li>
                     <li className="active1"><a href="#"><img src={star}/><p>Staff</p></a></li>
                     <li className="active1"><a href="#"><img src={user}/><p>Patients</p></a></li>

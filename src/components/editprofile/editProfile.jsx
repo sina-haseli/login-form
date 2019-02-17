@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../header/header'
 import Sider from '../sider/sider';
-import './mainPage.css';
+import './editProfile.css';
 import home from '../../Images/dash_home_bread_crumb.svg';
 
 
