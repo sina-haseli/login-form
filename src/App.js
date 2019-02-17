@@ -6,6 +6,7 @@ import landing from "./components/emailVerify/landing";
 import header from "./components/header/header.js";
 import mainpage from "./components/mainPage/mainPage";
 import confirmreset from "./components/reset/confirmreset";
+import editProfile from "./components/editprofile/editProfile";
 import login1 from "./components/login/login1";
 import "./App.css";
 
@@ -37,6 +38,7 @@ class App extends Component {
         <Switch>
           <Route path="/login1" component={login1} />
           <Route path="/mainpage" component={mainpage} />
+          <Route path="/editprofile" component={editProfile} />
           <Route exact path="/" component={login} />
           <Route path="/reset" component={reset} />
           <Route path="/email" component={landing} />
