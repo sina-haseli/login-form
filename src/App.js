@@ -7,6 +7,7 @@ import header from "./components/header/header.js";
 import mainpage from "./components/mainPage/mainPage";
 import confirmreset from "./components/reset/confirmreset";
 import editProfile from "./components/editprofile/editProfile";
+import changePassword from "./components/changePassword/chanePassword";
 import login1 from "./components/login/login1";
 import "./App.css";
 
@@ -44,6 +45,7 @@ class App extends Component {
           <Route path="/email" component={landing} />
           <Route path="/header" component={header} />
           <Route path="/confirm" component={confirmreset} />
+          <Route path="/changepassword" component={changePassword} />
         </Switch>
       </Fragment>
     );
