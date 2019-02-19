@@ -4,6 +4,10 @@ import { Input } from "antd";
 import { Button } from "antd";
 
 class ChanePassword extends Component {
+  constructor(props) {
+    super(props);
+    this.enterLoading = this.enterLoading.bind(this);
+  }
   state = {
     loading: false
   };
@@ -18,7 +22,7 @@ class ChanePassword extends Component {
         <div className="content1">
           <h3>Change Password</h3>
           <br />
-          <hr />
+          <hr className="hr1" />
           <Input.Password placeholder="input password" />
           <br />
           <hr />
@@ -31,7 +35,7 @@ class ChanePassword extends Component {
           >
             Confirm
           </Button>
-          <Button type="primary">Primary</Button>
+          <Button type="primary">Cancel</Button>
         </div>
       </div>
     );
