@@ -43,6 +43,9 @@
     margin-top: 177px;
     margin-left: 40px;
 }
+.adminClass:focus{
+    background-color: #E3E3E3;
+}
 
 .adminClass h1{
     font-family: 'Roboto-Medium', serif;
