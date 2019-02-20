@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import "./changePassword.css";
 import { Input } from "antd";
 import { Button } from "antd";
+import { message } from "antd";
+
+const error = () => {
+  message.error("This is a message of error");
+};
 
 class ChanePassword extends Component {
   constructor(props) {
