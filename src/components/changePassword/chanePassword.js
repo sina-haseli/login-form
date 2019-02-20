@@ -23,19 +23,28 @@ class ChanePassword extends Component {
           <h3>Change Password</h3>
           <br />
           <hr className="hr1" />
-          <Input.Password placeholder="input password" />
+          <Input.Password
+            placeholder="current password"
+            className="currentpassword"
+          />
           <br />
-          <hr />
-          <Input.Password placeholder="input password" />
-          <Input.Password placeholder="input password" />
+          <hr className="hr2" />
+          <Input.Password placeholder="new password" className="newpassword" />
+          <Input.Password
+            placeholder="confirm password"
+            className="confirmpassword"
+          />
           <Button
             type="primary"
             loading={this.state.loading}
             onClick={this.enterLoading}
+            className="confirmpass"
           >
             Confirm
           </Button>
-          <Button type="primary">Cancel</Button>
+          <Button type="primary" className="cancelpass">
+            Cancel
+          </Button>
         </div>
       </div>
     );
