@@ -1,11 +1,11 @@
 import axios from "axios";
-import { _setEmailError } from "../emailVerify/landing.action";
 //import {updateStoreWithUser} from '../User.actions';
 
 const RESET_RESET_FROM = "RESET_RESET_FORM";
 const SET_RESET_FROM_ERROR = "SET_RESET_FORM_ERROR";
 const SET_RESET_FROM_CONFIRM_PASSWORD = "SET_RESET_FORM_CONFIRM_PASSWORD";
 const SET_RESET_FORM_PASSWORD = "SET_RESET_FORM_PASSWORD";
+const SET_RESET_FORM_CURRENT_PASSWORD = "SET_RESET_FORM_CURRENT_PASSWORD";
 
 const _resetResetForm = () => ({
   type: RESET_RESET_FROM
@@ -14,6 +14,11 @@ const _resetResetForm = () => ({
 const _setResetFormError = error => ({
   type: SET_RESET_FROM_ERROR,
   error
+});
+
+export const setResetFormCurrentPassword = currentPassword => ({
+  type: SET_RESET_FORM_CURRENT_PASSWORD,
+  currentPassword
 });
 
 export const setResetFormConfirmPassword = confirmPassword => ({
