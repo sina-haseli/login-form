@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 import "./changePassword.css";
+import { connect } from "react-redux";
 import { Input } from "antd";
 import { Button } from "antd";
 import { message } from "antd";
+import {
+  changeResetFormPassword,
+  setResetFormConfirmPassword,
+  setResetFormCurrentPassword,
+  setResetFormPassword,
+  verifyToken
+} from "./changePassword.actions";
 
 const error = () => {
   message.error("This is a message of error");
@@ -12,24 +20,31 @@ class ChanePassword extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      current_password: "",
-      new_password: "",
-      confirm_password: "",
       loading: false
     };
     this.enterLoading = this.enterLoading.bind(this);
   }
 
-  handleInputChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
+  handlePasswordChange(e) {
+    this.props.setResetFormPassword(e.target.value);
   }
+  handleConfirmPasswordChange(e) {
+    this.props.setResetFormConfirmPassword(e.target.value);
+  }
+  handleCurrentPasswordChange(e) {
+    this.props.setResetFormCurrentPassword(e.target.value);
+  }
+
+  // handleInputChange(e) {
+  //   this.setState({ [e.target.name]: e.target.value });
+  // }
 
   handleSubmit(e) {
     e.preventDefault();
     const userpass = {
-      current_password: this.state.current_password,
-      new_password: this.state.new_password,
-      confirm_password: this.state.confirm_password
+      current_password: this.state.currentPassword,
+      new_password: this.state.password,
+      confirm_password: this.state.confirmPassword
     };
     console.log(userpass);
   }
@@ -47,22 +62,29 @@ class ChanePassword extends Component {
             <br />
             <hr className="hr1" />
             <Input.Password
-              onChange={this.handleInputChange}
-              value={this.state.current_password}
+              onChange={
+                this.handleInputChange || this.handleCurrentPasswordChange
+              }
+              name="current_password"
+              value={this.props.currentPassword}
               placeholder="current password"
               className="currentpassword"
             />
             <br />
             <hr className="hr2" />
             <Input.Password
-              onChange={this.handleInputChange}
-              value={this.state.new_password}
+              name="new_password"
+              onChange={this.handleInputChange || this.handlePasswordChange}
+              value={this.props.password}
               placeholder="new password"
               className="newpassword"
             />
             <Input.Password
-              onChange={this.handleInputChange}
-              value={this.state.confirm_password}
+              name="confirm_password"
+              onChange={
+                this.handleInputChange || this.handleConfirmPasswordChange
+              }
+              value={this.props.confirmPassword}
               placeholder="confirm password"
               className="confirmpassword"
             />
@@ -83,5 +105,18 @@ class ChanePassword extends Component {
     );
   }
 }
-
-export default ChanePassword;
+const mapStateToProps = state => ({
+  password: state.changePassword.password,
+  confirmPassword: state.changePassword.confirmPassword,
+  currentPassword: state.changePassword.currentPassword
+});
+export default connect(
+  mapStateToProps,
+  {
+    changeResetFormPassword,
+    setResetFormConfirmPassword,
+    setResetFormCurrentPassword,
+    setResetFormPassword,
+    verifyToken
+  }
+)(ChanePassword);

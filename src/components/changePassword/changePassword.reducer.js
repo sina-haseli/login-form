@@ -5,9 +5,9 @@ const SET_RESET_FORM_PASSWORD = "SET_RESET_FORM_PASSWORD";
 const SET_RESET_FORM_CURRENT_PASSWORD = "SET_RESET_FORM_CURRENT_PASSWORD";
 
 const initialState = {
-  confirm_password: "",
-  current_password: "",
-  new_password: ""
+  confirmPassword: "",
+  currentPassword: "",
+  password: ""
 };
 
 export default (state = initialState, action) => {
@@ -35,13 +35,13 @@ export default (state = initialState, action) => {
       }
       break;
     case SET_RESET_FORM_CONFIRM_PASSWORD:
-      newState.confirm_password = action.confirmPassword;
+      newState.confirmPassword = action.confirmPassword;
       break;
     case SET_RESET_FORM_PASSWORD:
-      newState.new_password = action.password;
+      newState.password = action.password;
       break;
     case SET_RESET_FORM_CURRENT_PASSWORD:
-      newState.current_password = action.currentPassword;
+      newState.currentPassword = action.currentPassword;
       break;
     default:
       return state;
