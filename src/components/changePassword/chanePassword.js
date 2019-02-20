@@ -13,7 +13,7 @@ import {
 } from "./changePassword.actions";
 
 const error = () => {
-  message.error("This is a message of error");
+  message.error("Password must match !");
 };
 
 class ChanePassword extends Component {
@@ -46,15 +46,13 @@ class ChanePassword extends Component {
   //   this.setState({ [e.target.name]: e.target.value });
   // }
 
-  handleSubmit(e) {
+  handleSubmit = e => {
     e.preventDefault();
-    const userpass = {
-      currentPassword: this.state.currentPassword,
-      password: this.state.password,
-      confirmPassword: this.state.confirmPassword
-    };
-    console.log(userpass);
-  }
+    if (this.props.password !== this.props.confirmPassword) {
+      return error();
+    }
+    this.props.changeResetFormPassword(this.props.password);
+  };
 
   enterLoading() {
     this.setState({ loading: true });
