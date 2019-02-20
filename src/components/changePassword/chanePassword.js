@@ -23,6 +23,13 @@ class ChanePassword extends Component {
       loading: false
     };
     this.enterLoading = this.enterLoading.bind(this);
+    this.handlePasswordChange = this.handlePasswordChange.bind(this);
+    this.handleCurrentPasswordChange = this.handleCurrentPasswordChange.bind(
+      this
+    );
+    this.handleConfirmPasswordChange = this.handleConfirmPasswordChange.bind(
+      this
+    );
   }
 
   handlePasswordChange(e) {
@@ -42,9 +49,9 @@ class ChanePassword extends Component {
   handleSubmit(e) {
     e.preventDefault();
     const userpass = {
-      current_password: this.state.currentPassword,
-      new_password: this.state.password,
-      confirm_password: this.state.confirmPassword
+      currentPassword: this.state.currentPassword,
+      password: this.state.password,
+      confirmPassword: this.state.confirmPassword
     };
     console.log(userpass);
   }
@@ -62,9 +69,7 @@ class ChanePassword extends Component {
             <br />
             <hr className="hr1" />
             <Input.Password
-              onChange={
-                this.handleInputChange || this.handleCurrentPasswordChange
-              }
+              onChange={this.handleCurrentPasswordChange}
               name="current_password"
               value={this.props.currentPassword}
               placeholder="current password"
@@ -74,16 +79,14 @@ class ChanePassword extends Component {
             <hr className="hr2" />
             <Input.Password
               name="new_password"
-              onChange={this.handleInputChange || this.handlePasswordChange}
+              onChange={this.handlePasswordChange}
               value={this.props.password}
               placeholder="new password"
               className="newpassword"
             />
             <Input.Password
               name="confirm_password"
-              onChange={
-                this.handleInputChange || this.handleConfirmPasswordChange
-              }
+              onChange={this.handleConfirmPasswordChange}
               value={this.props.confirmPassword}
               placeholder="confirm password"
               className="confirmpassword"

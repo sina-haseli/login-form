@@ -6,7 +6,7 @@ const SET_RESET_FORM_CURRENT_PASSWORD = "SET_RESET_FORM_CURRENT_PASSWORD";
 
 const initialState = {
   confirmPassword: "",
-  currentPassword: "",
+  currentPassword: "" || null,
   password: ""
 };
 
