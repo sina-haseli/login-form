@@ -30,6 +30,12 @@ class ChanePassword extends Component {
     this.handleConfirmPasswordChange = this.handleConfirmPasswordChange.bind(
       this
     );
+    this.check = this.check.bind(this);
+  }
+  check() {
+    if (this.props.password !== this.props.confirmPassword) {
+      return message.error("Password must match !");
+    }
   }
 
   handlePasswordChange(e) {
@@ -48,9 +54,6 @@ class ChanePassword extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    if (this.props.password !== this.props.confirmPassword) {
-      return error();
-    }
     this.props.changeResetFormPassword(this.props.password);
   };
 
@@ -88,6 +91,7 @@ class ChanePassword extends Component {
               value={this.props.confirmPassword}
               placeholder="confirm password"
               className="confirmpassword"
+              onBlur={this.check}
             />
             <Button
               type="primary"
