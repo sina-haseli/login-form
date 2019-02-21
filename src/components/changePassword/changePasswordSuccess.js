@@ -19,7 +19,7 @@ class ChangePasswordSuccess extends Component {
               A conformation email has been sent to name@gmail.com
             </p>
             <Button type="primary" className="confirmpass">
-              Confirm
+              Ok
             </Button>
           </form>
         </div>
