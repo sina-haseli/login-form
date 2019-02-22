@@ -16,10 +16,11 @@
     margin-left: -26px;
     width: 160px;
     height: 47px;
+    padding-top: 7px;
 }
 .list li:hover{
     background-color:#2774A0 ;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 .active img{
@@ -63,7 +64,7 @@ a:hover{
 
 .icon0{
     position: absolute;
-    top: 149px;
+    top: 153px;
     left: 135px;
     font-size: 20px;
     color: #0799D4;
@@ -71,7 +72,7 @@ a:hover{
 
 .icon1{
     position: absolute;
-    top: 195px;
+    top: 202px;
     left: 135px;
     font-size: 20px;
     color: #0799D4;
@@ -79,7 +80,7 @@ a:hover{
 
 .icon2{
     position: absolute;
-    top: 241px;
+    top: 247px;
     left: 135px;
     font-size: 20px;
     color: #0799D4;
@@ -87,7 +88,7 @@ a:hover{
 
 .icon3{
     position: absolute;
-    top: 337px;
+    top: 295px;
     left: 135px;
     font-size: 20px;
     color: #0799D4;
@@ -95,7 +96,7 @@ a:hover{
 
 .icon4{
     position: absolute;
-    top: 149px;
+    top: 343px;
     left: 135px;
     font-size: 20px;
     color: #0799D4;
