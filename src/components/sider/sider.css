@@ -4,7 +4,7 @@
     background-color: #0799D4;
     display:flex;
     list-style: none;
-    position: absolute;
+    position: relative;
     margin-right: 2px;
 }
 .list{
@@ -61,3 +61,42 @@ a:hover{
     margin-bottom: 19px;
 }
 
+.icon0{
+    position: absolute;
+    top: 149px;
+    left: 135px;
+    font-size: 20px;
+    color: #0799D4;
+}
+
+.icon1{
+    position: absolute;
+    top: 195px;
+    left: 135px;
+    font-size: 20px;
+    color: #0799D4;
+}
+
+.icon2{
+    position: absolute;
+    top: 241px;
+    left: 135px;
+    font-size: 20px;
+    color: #0799D4;
+}
+
+.icon3{
+    position: absolute;
+    top: 337px;
+    left: 135px;
+    font-size: 20px;
+    color: #0799D4;
+}
+
+.icon4{
+    position: absolute;
+    top: 149px;
+    left: 135px;
+    font-size: 20px;
+    color: #0799D4;
+}
