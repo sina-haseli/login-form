@@ -1,16 +1,11 @@
-.container{
-    height: 100%;
-    overflow: auto;
-
-}
 .sideNav{
     width: 200px;
-    height: 672px;
+    height: 100vh;
     background-color: #0799D4;
-    display:block;
+    display:flex;
     list-style: none;
-    overflow: auto;
-    position: static;
+    position: absolute;
+    margin-right: 2px;
 }
 .list{
     list-style: none;

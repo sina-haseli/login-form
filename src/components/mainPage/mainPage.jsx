@@ -11,7 +11,7 @@ class MainPage extends Component {
             <div className="app">
                 <Header/>
                 <div className="app-body">
-                    <Sider/>
+                    <Sider className="sider"/>
                     <div className="content">
                         <h1>Dashboard</h1>
                         <img src={home} />

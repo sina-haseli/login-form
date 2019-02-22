@@ -119,17 +119,17 @@ class login extends Component {
             <img src={logo_splash} alt="yop" />
             <form className="box" method="post" onSubmit={this.handleSubmit}>
               <div className="EmailAlert">
-                {!this.state.formErrors.email ? (
+                {this.state.formErrors.email ? (
                   <Alert
-                    message="Success"
-                    type="success"
+                    message="email is invalid"
+                    type="error"
                     showIcon
                     className="alert"
                   />
                 ) : (
                   <Alert
-                    message="Error"
-                    type="error"
+                    message="Success"
+                    type="success"
                     showIcon
                     className="alert"
                   />

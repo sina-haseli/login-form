@@ -1,8 +1,8 @@
 .content{
-    position: static;
+    position: relative;
     height: 100vh;
     display: block;
-    margin-top: -686px;
+    top: 50px;
     margin-left:200px;
     background-color: #ECECEC;
     overflow: auto;
@@ -125,4 +125,10 @@ hr{
     color: #005792;
     position: absolute;
     left: 791px;
+}
+
+.sider{
+    position: relative;
+    height: 100vh;
+
 }
