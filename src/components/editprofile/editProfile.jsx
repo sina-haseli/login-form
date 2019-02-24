@@ -7,6 +7,15 @@ import { Button } from 'antd';
 
 
 class MainPage extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            isEditing:false
+        }
+    }
+    onClickChange(){
+        this.setState({isEditing:true})
+    }
     render() {
         return (
             <div className="app">
@@ -20,7 +29,7 @@ class MainPage extends Component {
                             <div className="adminClass">
                                 <h1 className="adminName">Mike Smith</h1>
                                 <p>- [Super Admin]</p>
-                                <Button>Edit</Button><br/>
+                                <Button onClick={this.onClickChange}>Edit</Button><br/>
                                 <hr/>
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
