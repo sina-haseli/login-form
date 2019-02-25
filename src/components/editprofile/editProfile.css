@@ -90,7 +90,7 @@
 .p2{
     position: absolute;
     display: block;
-    top: -88px!important;
+    top: -99px!important;
     left: 229px!important;
     color: #696969;
 }
@@ -104,7 +104,7 @@
 .p4{
     position: absolute;
     display: block;
-    top: -118px!important;
+    top: -129px!important;
     left: 228px!important;
     color: #696969;
 }
@@ -123,6 +123,7 @@
     display: inline-block;
     top: -32px;
     left: 72px;
+    width: 143px;
 }
 .span2{
     font-family: Roboto-Medium, serif ;
@@ -130,8 +131,9 @@
     color: #005792;
     position: relative;
     display: inline-block;
-    top: -88px;
+    top: -99px;
     left: 227px;
+    width: 143px;
 }
 .span3{
     font-family: Roboto-Medium, serif ;
@@ -141,6 +143,7 @@
     display: inline-block;
     top: -69px;
     left: 70px;
+    width: 143px;
 }
 .span4{
     font-family: Roboto-Medium, serif ;
@@ -148,8 +151,9 @@
     color: #005792;
     position: relative;
     display: inline-block;
-    top: -124px;
+    top: -137px;
     left: 229px;
+    width: 143px;
 }
 .span5{
     font-family: Roboto-Medium, serif ;
@@ -160,3 +164,4 @@
     top: -126px;
     left: 74px;
 }
+
