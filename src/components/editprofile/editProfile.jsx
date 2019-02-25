@@ -42,15 +42,15 @@ class MainPage extends Component {
                                 <hr/>
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
-                                    <span className="span1">Mike</span>
+                                    <span className="span1">{this.state.firstName}</span>
                                     <p className="p2">Email Address</p>
-                                    <span className="span2">mike.smith@gmail.com</span>
+                                    <span className="span2">{this.state.email}</span>
                                     <p className="p3">Last Name</p>
-                                    <span className="span3">Smith</span>
+                                    <span className="span3">{this.state.lastName}</span>
                                     <p className="p4">Password</p>
-                                    <span className="span4">*******</span>
+                                    <span className="span4">{this.state.password}</span>
                                     <p className="p5">Administration Level</p>
-                                    <span className="span5">Super Admin</span>
+                                    <span className="span5">{this.state.adminPermission}</span>
 
                                 </div>
                             </div>
