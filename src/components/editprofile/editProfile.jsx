@@ -12,7 +12,12 @@ class MainPage extends Component {
         super(props);
         this.state={
             isEditing:false,
-
+            //for a week user data make in there but after that should move them in reduux
+            firstName:'Mike',
+            email:'mike.smith@gmail.com',
+            lastName:'Smith',
+            password:'*********',
+            adminPermission:'Super Admin'
         };
         this.onClickChange=this.onClickChange.bind(this);
     }
@@ -31,7 +36,7 @@ class MainPage extends Component {
                             <img src={home}/>
                             <h4>• Admin • My Profile</h4>
                             <div className="adminClass">
-                                <h1 className="adminName">Mike Smith</h1>
+                                <h1 className="adminName">{this.state.firstName} {this.state.lastName}</h1>
                                 <p>- [Super Admin]</p>
                                 <Button onClick={this.onClickChange}>Edit</Button><br/>
                                 <hr/>

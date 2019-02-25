@@ -51,9 +51,9 @@
     font-family: 'Roboto-Medium', serif;
     font-size: 30px;
     color: #005792;
-    position: absolute;
-    top: 315px;
-    left: 316px;
+    position: relative;
+    top: 105px;
+    left: 75px;
     size: 30px!important;
     width:162px;
     height:35px;
@@ -63,6 +63,7 @@
     alignment: left;
     font-family: Rajdhani-SemiBold, serif;
     position: relative;
+    display:block;
     top: 72px;
     left: 223px;
 }
