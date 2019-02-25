@@ -52,7 +52,7 @@
     font-size: 30px;
     color: #005792;
     position: relative;
-    top: 105px;
+    top: 71px;
     left: 75px;
     size: 30px!important;
     width:162px;
@@ -64,14 +64,14 @@
     font-family: Rajdhani-SemiBold, serif;
     position: relative;
     display:block;
-    top: 72px;
+    top: 37px;
     left: 223px;
 }
 .adminClass Button{
     color: white;
     background-color: #0799D4;
     position: relative;
-    top: 28px;
+    top: -23px;
     left: 1447px;
 }
 .adminClass hr{
@@ -79,7 +79,7 @@
     position: relative;
     color: #333333;
     background-color: #333333;
-    margin:73px ;
+    margin:61px ;
 }
 .p1{
     position: absolute;
