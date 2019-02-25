@@ -4,7 +4,7 @@ import Sider from '../sider/sider';
 import './editProfile.css';
 import home from '../../Images/dash_home_bread_crumb.svg';
 import { Button } from 'antd';
-import { Input, Icon } from 'antd';
+import { Input } from 'antd';
 
 
 class MainPage extends Component {
