@@ -82,7 +82,7 @@ class MainPage extends Component {
                                     <p className="p3">Last Name</p>
                                     <span className="span3"><Input placeholder="last name" /></span>
                                     <p className="p4">Password</p>
-                                    <span className="span4"><Input.Password placeholder="email" /></span>
+                                    <span className="span4"><Input.Password placeholder="password" /></span>
                                     <p className="p5">Administration Level</p>
                                     <span className="span5">Super Admin</span>
 
