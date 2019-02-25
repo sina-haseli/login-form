@@ -11,12 +11,14 @@ class MainPage extends Component {
     constructor(props){
         super(props);
         this.state={
-            isEditing:true
-        }
+            isEditing:false,
+
+        };
+        this.onClickChange=this.onClickChange.bind(this);
     }
-    // onClickChange(){
-    //     this.setState({isEditing:true})
-    // }
+    onClickChange(){
+        this.setState({isEditing:!this.state.isEditing})
+    }
     render() {
         if (this.state.isEditing===false) {
             return (
@@ -64,7 +66,7 @@ class MainPage extends Component {
                             <div className="adminClass">
                                 <h1 className="adminName">Mike Smith</h1>
                                 <p>- [Super Admin]</p>
-                                <Button onClick={this.onClickChange}>Save</Button><br/>
+                                <Button /*onClick={this.onClickChange}*/>Save</Button><br/>
                                 <hr/>
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
