@@ -8,6 +8,7 @@
     overflow: auto;
 
 }
+
 .content h1{
     font-family: 'Roboto-Medium', serif;
     font-size: 30px;
@@ -43,11 +44,30 @@
     margin-top: 177px;
     margin-left: 40px;
 }
+.adminClass1{
+    border-radius: 5px;
+    width: 1576px;
+    height: 453px;
+    background-color: #E3E3E3;
+    margin-top: 177px;
+    margin-left: 40px;
+}
 .adminClass:focus{
     background-color: #E3E3E3;
 }
 
 .adminClass h1{
+    font-family: 'Roboto-Medium', serif;
+    font-size: 30px;
+    color: #005792;
+    position: relative;
+    top: 71px;
+    left: 75px;
+    size: 30px!important;
+    width:162px;
+    height:35px;
+}
+.adminClass1 h1{
     font-family: 'Roboto-Medium', serif;
     font-size: 30px;
     color: #005792;
@@ -67,6 +87,15 @@
     top: 37px;
     left: 223px;
 }
+.adminClass1 p{
+    color: #696969;
+    alignment: left;
+    font-family: Rajdhani-SemiBold, serif;
+    position: relative;
+    display:block;
+    top: 37px;
+    left: 223px;
+}
 .adminClass Button{
     color: white;
     background-color: #0799D4;
@@ -74,7 +103,21 @@
     top: -23px;
     left: 1447px;
 }
+.adminClass1 Button{
+    color: white;
+    background-color: #0799D4;
+    position: relative;
+    top: -23px;
+    left: 1447px;
+}
 .adminClass hr{
+    border-top: 15px;
+    position: relative;
+    color: #333333;
+    background-color: #333333;
+    margin:61px ;
+}
+.adminClass1 hr{
     border-top: 15px;
     position: relative;
     color: #333333;

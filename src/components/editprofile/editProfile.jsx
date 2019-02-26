@@ -68,7 +68,7 @@ class MainPage extends Component {
                             <h1>Dashboard</h1>
                             <img src={home}/>
                             <h4>• Admin • My Profile</h4>
-                            <div className="adminClass">
+                            <div className="adminClass1">
                                 <h1 className="adminName">Mike Smith</h1>
                                 <p>- [Super Admin]</p>
                                 <Button /*onClick={this.onClickChange}*/>Save</Button><br/>
