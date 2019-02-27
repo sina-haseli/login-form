@@ -81,5 +81,12 @@ export const updateProfile = ({
       password
     })
     .then(response => {
-      dispatch();
+      dispatch(_resetProfileFirstName());
+      dispatch(_resetProfileLastName());
+      dispatch(_resetProfileEmail());
+      dispatch(_resetProfilePassword());
+      dispatch(_resetProfileError());
+    })
+    .catch(error => {
+      console.log(error, "error");
     });
