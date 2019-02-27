@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,7 +65,7 @@
         <counts>
           <entry key="css" value="4596" />
           <entry key="html" value="1" />
-          <entry key="js" value="10518" />
+          <entry key="js" value="10943" />
           <entry key="json" value="128" />
           <entry key="jsx" value="1516" />
           <entry key="md" value="538" />
@@ -77,7 +78,7 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="128" />
           <entry key="JSX Harmony" value="1466" />
-          <entry key="JavaScript" value="10517" />
+          <entry key="JavaScript" value="10942" />
           <entry key="Markdown" value="538" />
           <entry key="PLAIN_TEXT" value="97" />
         </counts>
@@ -98,18 +99,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="380">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.jsx" />
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.css" />
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" />
       </list>
     </option>
   </component>
@@ -191,8 +193,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="877" />
-    <option name="y" value="36" />
+    <option name="x" value="954" />
+    <option name="y" value="21" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -397,21 +399,7 @@
       <workItem from="1550998702075" duration="419000" />
       <workItem from="1551085700351" duration="3640000" />
       <workItem from="1551207155325" duration="1282000" />
-      <workItem from="1551269251869" duration="562000" />
-    </task>
-    <task id="LOCAL-00017" summary="commit">
-      <created>1548431260276</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1548431260276</updated>
-    </task>
-    <task id="LOCAL-00018" summary="commit">
-      <created>1548436550250</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1548436550250</updated>
+      <workItem from="1551269251869" duration="1496000" />
     </task>
     <task id="LOCAL-00019" summary="commit">
       <created>1548436689926</created>
@@ -742,14 +730,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551269599500</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="fix tpyo">
+      <created>1551269818768</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1551269818768</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fix tpyo">
+      <created>1551270123156</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1551270123156</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77308000" />
+    <option name="totallyTimeSpent" value="78242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="877" y="36" width="974" height="1047" extended-state="0" />
+    <frame x="954" y="21" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24038461" />
@@ -1081,13 +1083,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js">
+    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
