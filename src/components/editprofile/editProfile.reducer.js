@@ -15,11 +15,7 @@ const initialState = {
   firstName: "",
   lastName: "",
   email: "",
-  password: "",
-  error: {
-    field: [],
-    messages: []
-  }
+  password: ""
 };
 
 export default (state = initialState, action) => {
@@ -27,17 +23,13 @@ export default (state = initialState, action) => {
 
   switch (action.type) {
     case RESET_PROFILE_FIRSTNAME:
-      newState.firstName = "";
-      break;
+      return initialState;
     case RESET_PROFILE_LASTNAME:
-      newState.lastName = "";
-      break;
+      return initialState;
     case RESET_PROFILE_EMAIL:
-      newState.email = "";
-      break;
+      return initialState;
     case RESET_PROFILE_PASSWORD:
-      newState.password = "";
-      break;
+      return initialState;
     case SET_PROFILE_FIRSTNAME:
       newState.firstName = action.firstName;
       break;
@@ -50,5 +42,8 @@ export default (state = initialState, action) => {
     case SET_PROFILE_PASSWORD:
       newState.password = action.password;
       break;
+    default:
+      return state;
   }
+  return newState;
 };

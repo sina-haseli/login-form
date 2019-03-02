@@ -44,7 +44,7 @@ class EditProfile extends Component {
                                 <hr/>
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
-                                    <span className="span1">{this.state.firstName}</span>
+                                    <span className="span1">{this.props.firstName}</span>
                                     <p className="p2">Email Address</p>
                                     <span className="span2">{this.state.email}</span>
                                     <p className="p3">Last Name</p>
@@ -109,9 +109,9 @@ class EditProfile extends Component {
 
 const mapStateToProps = (state) => ({
    firstName: state.editProfile.firstName,
-    lastName: state.editProfile.lastName,
-    email: state.editProfile.email,
-    password: state.editProfile.password
+   lastName: state.editProfile.lastName,
+   email: state.editProfile.email,
+   password: state.editProfile.password
 });
 
 export default connect(mapStateToProps,{_resetProfileFirstName,_resetProfileLastName,_resetProfileEmail,_resetProfilePassword,setProfileFirstName,setProfileLastName,setProfileEmail,setProfilePassword}) (EditProfile);
