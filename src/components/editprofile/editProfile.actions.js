@@ -86,6 +86,7 @@ export const updateProfile = ({
       dispatch(_resetProfileEmail());
       dispatch(_resetProfilePassword());
       dispatch(_resetProfileError());
+      console.log(response);
     })
     .catch(error => {
       console.log(error, "error");
