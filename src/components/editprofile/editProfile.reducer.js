@@ -25,5 +25,8 @@ export default (state = initialState, action) => {
   const newState = Object.assign({}, state);
 
   switch (action.type) {
+    case RESET_PROFILE_FIRSTNAME:
+      newState.firstName = "";
+      break;
   }
 };
