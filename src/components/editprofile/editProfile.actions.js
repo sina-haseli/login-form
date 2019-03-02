@@ -74,7 +74,7 @@ export const updateProfile = ({
   password
 }) => dispatch =>
   axios
-    .patch(`/api/user/${id}`, {
+    .patch(`/api/user/${1 /*should be id*/}`, {
       firstname,
       lastname,
       email,

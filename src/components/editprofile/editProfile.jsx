@@ -5,9 +5,11 @@ import './editProfile.css';
 import home from '../../Images/dash_home_bread_crumb.svg';
 import { Button } from 'antd';
 import { Input } from 'antd';
+import {connect} from 'react-redux';
+import {_resetProfileFirstName,_resetProfileLastName,_resetProfileEmail,_resetProfilePassword,setProfileFirstName,setProfileLastName,setProfileEmail,setProfilePassword} from "./editProfile.actions";
 
 
-class MainPage extends Component {
+class EditProfile extends Component {
     constructor(props){
         super(props);
         this.state={
@@ -105,4 +107,11 @@ class MainPage extends Component {
 
 }
 
-export default MainPage;
+const mapStateToProps = (state) => ({
+   firstName: state.editProfile.firstName,
+    lastName: state.editProfile.lastName,
+    email: state.editProfile.email,
+    password: state.editProfile.password
+});
+
+export default connect(mapStateToProps,{_resetProfileFirstName,_resetProfileLastName,_resetProfileEmail,_resetProfilePassword,setProfileFirstName,setProfileLastName,setProfileEmail,setProfilePassword}) (EditProfile);
