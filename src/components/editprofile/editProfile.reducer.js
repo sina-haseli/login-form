@@ -38,5 +38,17 @@ export default (state = initialState, action) => {
     case RESET_PROFILE_PASSWORD:
       newState.password = "";
       break;
+    case SET_PROFILE_FIRSTNAME:
+      newState.firstName = action.firstName;
+      break;
+    case SET_PROFILE_LASTNAME:
+      newState.lastName = action.lastName;
+      break;
+    case SET_PROFILE_EMAIL:
+      newState.email = action.email;
+      break;
+    case SET_PROFILE_PASSWORD:
+      newState.password = action.password;
+      break;
   }
 };
