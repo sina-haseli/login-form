@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,7 +63,7 @@
         <counts>
           <entry key="css" value="4596" />
           <entry key="html" value="1" />
-          <entry key="js" value="11192" />
+          <entry key="js" value="11246" />
           <entry key="json" value="128" />
           <entry key="jsx" value="1516" />
           <entry key="md" value="538" />
@@ -78,7 +76,7 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="128" />
           <entry key="JSX Harmony" value="1466" />
-          <entry key="JavaScript" value="11191" />
+          <entry key="JavaScript" value="11245" />
           <entry key="Markdown" value="538" />
           <entry key="PLAIN_TEXT" value="97" />
         </counts>
@@ -111,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="472">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -404,21 +402,7 @@
       <workItem from="1551085700351" duration="3640000" />
       <workItem from="1551207155325" duration="1282000" />
       <workItem from="1551269251869" duration="1647000" />
-      <workItem from="1551525435151" duration="256000" />
-    </task>
-    <task id="LOCAL-00021" summary="fix tpyo">
-      <created>1549969989791</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1549969989791</updated>
-    </task>
-    <task id="LOCAL-00022" summary="fix tpyo">
-      <created>1549970382329</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1549970382329</updated>
+      <workItem from="1551525435151" duration="923000" />
     </task>
     <task id="LOCAL-00023" summary="fix tpyo">
       <created>1550228177339</created>
@@ -749,11 +733,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551270855685</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="fix tpyo">
+      <created>1551525696365</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1551525696366</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix tpyo">
+      <created>1551525755370</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1551525755370</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78649000" />
+    <option name="totallyTimeSpent" value="79316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="980" y="3" width="974" height="1047" extended-state="0" />
@@ -1091,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="472">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
