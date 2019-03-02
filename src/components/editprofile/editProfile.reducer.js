@@ -10,6 +10,7 @@ const RESET_PROFILE_EMAIL = "RESET_PROFILE_EMAIL";
 const RESET_PROFILE_PASSWORD = "RESET_PROFILE_PASSWORD";
 const RESET_PROFILE_ERROR = "RESET_PROFILE_ERROR";
 
+//after made sign up i will fix this part :)
 const initialState = {
   firstName: "",
   lastName: "",
@@ -28,5 +29,7 @@ export default (state = initialState, action) => {
     case RESET_PROFILE_FIRSTNAME:
       newState.firstName = "";
       break;
+    case RESET_PROFILE_LASTNAME:
+      newState.lastName = "";
   }
 };
