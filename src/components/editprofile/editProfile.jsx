@@ -101,12 +101,10 @@ class EditProfile extends Component {
                                     <p className="p1">First Name</p>
                                     <span className="span1"><Input
                                         placeholder="First Name"
-                                        //prefix={<Icon type="user" style={{color: 'rgba(0,0,0,.25)'}}/>}
                                         className="inputName"
-                                        //suffix={suffix}
                                         valueOf={this.props.firstName}
                                         onChange={this.handleFirstnameChange}
-                                        /*ref={node => this.userNameInput = node}*//></span>
+                                        /></span>
                                     <p className="p2">Email Address</p>
                                     <span className="span2">
                                         <Input placeholder="email"
