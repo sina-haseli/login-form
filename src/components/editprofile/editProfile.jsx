@@ -104,7 +104,7 @@ class EditProfile extends Component {
                                         //prefix={<Icon type="user" style={{color: 'rgba(0,0,0,.25)'}}/>}
                                         className="inputName"
                                         //suffix={suffix}
-                                        value={this.props.firstName}
+                                        valueOf={this.props.firstName}
                                         onChange={this.handleFirstnameChange}
                                         /*ref={node => this.userNameInput = node}*//></span>
                                     <p className="p2">Email Address</p>
