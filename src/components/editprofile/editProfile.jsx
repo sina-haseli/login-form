@@ -120,7 +120,7 @@ class EditProfile extends Component {
                                     /></span>
                                     <p className="p4">Password</p>
                                     <span className="span4"><Input.Password placeholder="password"
-                                        value={this.props.password}
+                                        valueOf={this.props.password}
                                         onChange={this.handlePasswordChange}
                                     /></span>
                                     <p className="p5">Administration Level</p>
