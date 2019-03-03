@@ -110,7 +110,7 @@ class EditProfile extends Component {
                                     <p className="p2">Email Address</p>
                                     <span className="span2">
                                         <Input placeholder="email"
-                                            value={this.props.email}
+                                            valueOf={this.props.email}
                                             onChange={this.handleEmailChange}
                                         /></span>
                                     <p className="p3">Last Name</p>
