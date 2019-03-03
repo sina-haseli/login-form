@@ -115,7 +115,7 @@ class EditProfile extends Component {
                                         /></span>
                                     <p className="p3">Last Name</p>
                                     <span className="span3"><Input placeholder="last name"
-                                        value={this.props.lastName}
+                                        valueOf={this.props.lastName}
                                         onChange={this.handleLastnameChange}
                                     /></span>
                                     <p className="p4">Password</p>
