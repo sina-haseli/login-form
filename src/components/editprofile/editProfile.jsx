@@ -8,7 +8,6 @@ import { Input } from 'antd';
 import {connect} from 'react-redux';
 import {_resetProfileFirstName,_resetProfileLastName,_resetProfileEmail,_resetProfilePassword,setProfileFirstName,setProfileLastName,setProfileEmail,setProfilePassword} from "./editProfile.actions";
 
-// need to fix redux :)
 
 class EditProfile extends Component {
     constructor(props){
