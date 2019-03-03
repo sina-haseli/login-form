@@ -23,10 +23,32 @@ class EditProfile extends Component {
             adminPermission:'Super Admin'
         };
         this.onClickChange=this.onClickChange.bind(this);
+        this.handleFirstnameChange=this.handleFirstnameChange.bind(this);
+        this.handleLastnameChange=this.handleLastnameChange.bind(this);
+        this.handleEmailChange=this.handleEmailChange.bind(this);
+        this.handlePasswordChange=this.handlePasswordChange.bind(this);
     }
     onClickChange(){
         this.setState({isEditing:!this.state.isEditing})
     }
+
+    handleFirstnameChange(e){
+        this.props.setProfileFirstName(e.target.value);
+    }
+
+    handleLastnameChange(e){
+        this.props.setProfileLastName(e.target.value);
+    }
+
+    handleEmailChange(e){
+        this.props.setProfileEmail(e.target.value);
+    }
+
+    handlePasswordChange(e){
+        this.props.setProfilePassword(e.target.value);
+    }
+
+
     render() {
         if (this.state.isEditing===false) {
             return (
@@ -79,20 +101,29 @@ class EditProfile extends Component {
                                 <div className="adminInform">
                                     <p className="p1">First Name</p>
                                     <span className="span1"><Input
-                                        placeholder="username"
+                                        placeholder="First Name"
                                         //prefix={<Icon type="user" style={{color: 'rgba(0,0,0,.25)'}}/>}
                                         className="inputName"
                                         //suffix={suffix}
-                                        //value={userName}
-                                        //onChange={this.onChangeUserName}
+                                        value={this.props.firstName}
+                                        onChange={this.handleFirstnameChange}
                                         /*ref={node => this.userNameInput = node}*//></span>
                                     <p className="p2">Email Address</p>
                                     <span className="span2">
-                                        <Input placeholder="email" /></span>
+                                        <Input placeholder="email"
+                                            value={this.props.email}
+                                            onChange={this.handleEmailChange}
+                                        /></span>
                                     <p className="p3">Last Name</p>
-                                    <span className="span3"><Input placeholder="last name" /></span>
+                                    <span className="span3"><Input placeholder="last name"
+                                        value={this.props.lastName}
+                                        onChange={this.handleLastnameChange}
+                                    /></span>
                                     <p className="p4">Password</p>
-                                    <span className="span4"><Input.Password placeholder="password" /></span>
+                                    <span className="span4"><Input.Password placeholder="password"
+                                        value={this.props.password}
+                                        onChange={this.handlePasswordChange}
+                                    /></span>
                                     <p className="p5">Administration Level</p>
                                     <span className="span5">Super Admin</span>
 
