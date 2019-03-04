@@ -14,7 +14,7 @@ class Sider extends Component {
                    <div className="list">
                     <li className="active1"><a href="../mainPage/mainPage.jsx"><img src={dashboard}/><p>Dashboard</p></a><span className="icon0"> <i
                         className="fas fa-angle-right"></i></span></li>
-                    <li className="active1"><a href="#"><img src={book}/><p>Organisations</p></a><span className="icon1"> <i
+                    <li className="active1"><a href="../organisations/organisations.js"><img src={book}/><p>Organisations</p></a><span className="icon1"> <i
                         className="fas fa-angle-right"></i></span></li>
                     <li className="active1"><a href="#"><img src={star}/><p>Staff</p></a><span className="icon2"> <i
                         className="fas fa-angle-right"></i></span></li>

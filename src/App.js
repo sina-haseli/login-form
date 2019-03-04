@@ -10,6 +10,7 @@ import editProfile from "./components/editprofile/editProfile";
 import changePassword from "./components/changePassword/chanePassword";
 import changePasswordSuccess from "./components/changePassword/changePasswordSuccess";
 import login1 from "./components/login/login1";
+import organisations from "./components/organisations/organisations";
 import "./App.css";
 
 class App extends Component {
@@ -47,6 +48,7 @@ class App extends Component {
           <Route path="/header" component={header} />
           <Route path="/confirm" component={confirmreset} />
           <Route path="/changepassword" component={changePassword} />
+          <Route path="/organisations" component={organisations} />
           <Route
             path="/changepasswordsuccess"
             component={changePasswordSuccess}
