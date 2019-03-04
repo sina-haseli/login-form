@@ -9,24 +9,37 @@ import { Table } from "antd";
 
 const columns = [
   {
-    title: "Name",
-    dataIndex: "name",
+    title: "Dat Registered",
+    dataIndex: "date",
     sorter: true,
     render: name => `${name.first} ${name.last}`,
     width: "20%"
   },
   {
-    title: "Gender",
-    dataIndex: "gender",
-    filters: [
-      { text: "Male", value: "male" },
-      { text: "Female", value: "female" }
-    ],
+    title: "Organisation Name",
+    dataIndex: "name",
+    sorter: true,
     width: "20%"
   },
   {
-    title: "Email",
-    dataIndex: "email"
+    title: "Telephone",
+    dataIndex: "telephone",
+    sorter: true,
+    width: "20%"
+  },
+  {
+    title: "Town/City",
+    dataIndex: "town",
+    sorter: true,
+    width: "20%"
+  },
+  {
+    title: "Status",
+    dataIndex: "status",
+    sorter: true
+  },
+  {
+    width: "35%"
   }
 ];
 
