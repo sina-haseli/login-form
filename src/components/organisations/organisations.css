@@ -4,8 +4,8 @@
     display: block;
     margin-top: -686px;
     margin-left:200px;
+    margin-right: 0px;
     background-color: #ECECEC;
-    overflow: auto;
     width: auto;
 }
 
@@ -37,11 +37,13 @@
 }
 
 .adminClass{
+    position: static;
     border-radius: 5px;
     height: 453px;
     background-color: white;
     margin-top: 177px;
     margin-left: 40px;
+    margin-right: 40px;
     width: auto;
 }
 
