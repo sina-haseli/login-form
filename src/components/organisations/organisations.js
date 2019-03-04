@@ -18,7 +18,7 @@ class Organisations extends Component {
             <h4>• Organisations</h4>
             <div className="adminClass">
               <h1 className="adminName" />
-              <Button>Edit</Button>
+              <Button>Add Organisation</Button>
               <br />
               <hr />
             </div>
