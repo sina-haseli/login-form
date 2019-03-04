@@ -6,7 +6,7 @@
     margin-left:200px;
     background-color: #ECECEC;
     overflow: auto;
-
+    width: auto;
 }
 
 .content h1{
@@ -38,174 +38,35 @@
 
 .adminClass{
     border-radius: 5px;
-    width: 1576px;
+    //width: 1576px;
     height: 453px;
     background-color: white;
     margin-top: 177px;
     margin-left: 40px;
+    width: auto;
 }
-.adminClass1{
-    border-radius: 5px;
-    width: 1576px;
-    height: 453px;
-    background-color: #E3E3E3;
-    margin-top: 177px;
-    margin-left: 40px;
-}
+
 .adminClass:focus{
     background-color: #E3E3E3;
 }
 
-.adminClass h1{
-    font-family: 'Roboto-Medium', serif;
-    font-size: 30px;
-    color: #005792;
-    position: relative;
-    top: 71px;
-    left: 75px;
-    size: 30px!important;
-    width:162px;
-    height:35px;
-}
-.adminClass1 h1{
-    font-family: 'Roboto-Medium', serif;
-    font-size: 30px;
-    color: #005792;
-    position: relative;
-    top: 71px;
-    left: 75px;
-    size: 30px!important;
-    width:162px;
-    height:35px;
-}
-.adminClass p{
-    color: #696969;
-    alignment: left;
-    font-family: Rajdhani-SemiBold, serif;
-    position: relative;
-    display:block;
-    top: 37px;
-    left: 223px;
-}
-.adminClass1 p{
-    color: #696969;
-    alignment: left;
-    font-family: Rajdhani-SemiBold, serif;
-    position: relative;
-    display:block;
-    top: 37px;
-    left: 223px;
-}
+
+
+
+
 .adminClass Button{
     color: white;
     background-color: #0799D4;
     position: relative;
     top: -23px;
-    left: 1447px;
+    left: 57px;
 }
-.adminClass1 Button{
-    color: white;
-    background-color: #0799D4;
-    position: relative;
-    top: -23px;
-    left: 1447px;
-}
+
 .adminClass hr{
     border-top: 15px;
     position: relative;
     color: #333333;
     background-color: #333333;
     margin:61px ;
-}
-.adminClass1 hr{
-    border-top: 15px;
-    position: relative;
-    color: #333333;
-    background-color: #333333;
-    margin:61px ;
-}
-.p1{
-    position: absolute;
-    display: block;
-    top: -30px!important;
-    left: 74px!important;
-    color: #696969;
-}
-.p2{
-    position: absolute;
-    display: block;
-    top: -99px!important;
-    left: 229px!important;
-    color: #696969;
-}
-.p3{
-    position: absolute;
-    display: block;
-    top: -62px!important;
-    left: 74px!important;
-    color: #696969;
-}
-.p4{
-    position: absolute;
-    display: block;
-    top: -129px!important;
-    left: 228px!important;
-    color: #696969;
-}
-.p5{
-    position: absolute;
-    display: block;
-    top: -114px!important;
-    left: 74px!important;
-    color: #696969;
-}
-.span1{
-    font-family: Roboto-Medium, serif ;
-    font-size: large;
-    color: #005792;
-    position: relative;
-    display: inline-block;
-    top: -32px;
-    left: 72px;
-    width: 143px;
-}
-.span2{
-    font-family: Roboto-Medium, serif ;
-    font-size: large;
-    color: #005792;
-    position: relative;
-    display: inline-block;
-    top: -99px;
-    left: 227px;
-    width: 143px;
-}
-.span3{
-    font-family: Roboto-Medium, serif ;
-    font-size: large;
-    color: #005792;
-    position: relative;
-    display: inline-block;
-    top: -69px;
-    left: 70px;
-    width: 143px;
-}
-.span4{
-    font-family: Roboto-Medium, serif ;
-    font-size: large;
-    color: #005792;
-    position: relative;
-    display: inline-block;
-    top: -137px;
-    left: 229px;
-    width: 143px;
-}
-.span5{
-    font-family: Roboto-Medium, serif ;
-    font-size: large;
-    color: #005792;
-    position: relative;
-    display: inline-block;
-    top: -126px;
-    left: 74px;
 }
 
