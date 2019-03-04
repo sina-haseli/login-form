@@ -58,15 +58,17 @@
     color: white;
     background-color: #0799D4;
     position: relative;
-    top: -23px;
+    top: 31px;
     left: 57px;
 }
 
 .adminClass hr{
-    border-top: 15px;
+    size: 1px!important;
     position: relative;
     color: #333333;
     background-color: #333333;
-    margin:61px ;
+    margin-top:61px ;
+    border: none;
+    height: 1px;
 }
 
