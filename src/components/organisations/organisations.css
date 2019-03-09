@@ -1,5 +1,5 @@
 .colside{
-    height:-webkit-fill-available;
+    height:calc(100vh - 48px);
     padding: 0px;
     position: absolute;
     width: 13%;
@@ -8,7 +8,7 @@
 .colcontent{
     position:absolute ;
     width: 87%!important;
-    height: 100%;
+    height:calc(100vh - 48px);
     background-color: #ECECEC;
     margin-left: 13%;
 }
