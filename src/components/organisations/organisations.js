@@ -52,15 +52,17 @@ class Organisations extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12">
             <Header />
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-3" />
-          <div className="col-lg-9" />
+          <div className="col-lg-2 colside">
+            <Sider />
+          </div>
+          <div className="col-lg-10 offset-2">asd</div>
         </div>
       </div>
     );

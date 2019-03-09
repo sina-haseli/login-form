@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisations/organisations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisations/organisations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisations/organisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisations/organisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sider/sider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sider/sider.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +36,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="54" />
-          <entry key="html" value="1" />
+          <entry key="css" value="55" />
+          <entry key="html" value="2" />
           <entry key="js" value="83" />
           <entry key="json" value="6" />
-          <entry key="jsx" value="19" />
+          <entry key="jsx" value="21" />
           <entry key="md" value="2" />
           <entry key="patch" value="2" />
           <entry key="svg" value="2" />
@@ -43,10 +48,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="54" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="55" />
+          <entry key="HTML" value="2" />
           <entry key="JSON" value="5" />
-          <entry key="JSX Harmony" value="18" />
+          <entry key="JSX Harmony" value="20" />
           <entry key="JavaScript" value="83" />
           <entry key="Markdown" value="2" />
           <entry key="PATCH" value="2" />
@@ -62,9 +67,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="4761" />
-          <entry key="html" value="1" />
-          <entry key="js" value="12090" />
+          <entry key="css" value="4820" />
+          <entry key="html" value="28" />
+          <entry key="js" value="12261" />
           <entry key="json" value="128" />
           <entry key="jsx" value="2157" />
           <entry key="md" value="538" />
@@ -73,11 +78,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="4761" />
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="4820" />
+          <entry key="HTML" value="29" />
           <entry key="JSON" value="128" />
           <entry key="JSX Harmony" value="2107" />
-          <entry key="JavaScript" value="12089" />
+          <entry key="JavaScript" value="12260" />
           <entry key="Markdown" value="538" />
           <entry key="PLAIN_TEXT" value="97" />
         </counts>
@@ -86,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            <state relative-caret-position="274">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -99,10 +104,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/sider/sider.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/sider/sider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="46">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -132,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/confirm.js" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/landing.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/Spinner.js" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/landing.js" />
@@ -158,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/components/login/login.js" />
         <option value="$PROJECT_DIR$/src/components/mainPage/mainPage.jsx" />
         <option value="$PROJECT_DIR$/src/components/mainPage/mainPage.css" />
-        <option value="$PROJECT_DIR$/src/components/sider/sider.css" />
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.css" />
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.actions.js" />
         <option value="$PROJECT_DIR$/src/rootReducer.js" />
@@ -167,8 +197,10 @@
         <option value="$PROJECT_DIR$/src/components/editprofile/editProfile.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/sider/sider.jsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/organisations/organisations.css" />
         <option value="$PROJECT_DIR$/src/components/organisations/organisations.js" />
+        <option value="$PROJECT_DIR$/src/components/sider/sider.css" />
       </list>
     </option>
   </component>
@@ -272,7 +304,21 @@
               <item name="login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="editprofile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,14 +426,7 @@
       <workItem from="1551700860487" duration="3551000" />
       <workItem from="1551714349938" duration="374000" />
       <workItem from="1551893445892" duration="1051000" />
-      <workItem from="1552117130388" duration="329000" />
-    </task>
-    <task id="LOCAL-00046" summary="fix tpyo">
-      <created>1550682252617</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1550682252617</updated>
+      <workItem from="1552117130388" duration="2316000" />
     </task>
     <task id="LOCAL-00047" summary="fix tpyo">
       <created>1550754048779</created>
@@ -725,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551704401806</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="fix tpyo">
+      <created>1552117474320</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1552117474324</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88926000" />
+    <option name="totallyTimeSpent" value="90913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -816,13 +862,6 @@
     <entry file="file://$PROJECT_DIR$/prettier.config.js" />
     <entry file="file://$PROJECT_DIR$/src/Images/bg_graidents.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="198" selection-start-line="15" selection-start-column="198" selection-end-line="15" selection-end-column="198" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sider/sider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/changePassword/changePassword.actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1043,20 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sider/sider.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1074,20 +1092,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        <state relative-caret-position="274">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sider/sider.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sider/sider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
