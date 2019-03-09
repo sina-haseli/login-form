@@ -19,6 +19,8 @@ const menu = (
   </Menu>
 );
 
+//initial commit
+
 class Header extends Component {
   constructor(props) {
     super(props);
