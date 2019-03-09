@@ -1,5 +1,39 @@
 .colside{
+    height:-webkit-fill-available;
     padding: 0px;
     position: absolute;
     width: 13%;
+}
+
+.colcontent{
+    position:absolute ;
+    width: 87%!important;
+    height: 100%;
+    background-color: #ECECEC;
+    margin-left: 13%;
+}
+
+.colcontent h1{
+    font-family: Roboto-Medium, serif;
+    font-size: 30px;
+    color: #005792;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    size: 30px!important;
+    width: 162px;
+    height: 35px;
+}
+
+.colcontent img{
+    position: absolute;
+    top:25%;
+    left:6%;
+}
+.colcontent h4{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    alignment: left;
+    font-size: medium;
 }

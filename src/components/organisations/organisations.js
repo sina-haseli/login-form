@@ -54,7 +54,7 @@ class Organisations extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 ">
             <Header />
           </div>
         </div>
@@ -62,7 +62,11 @@ class Organisations extends Component {
           <div className="col-lg-2 colside">
             <Sider />
           </div>
-          <div className="col-lg-10 offset-2">asd</div>
+          <div className="col-lg-11  colcontent">
+            <h1>Dashboard</h1>
+            <img src={home} />
+            <h4>• Admin • My Profile</h4>
+          </div>
         </div>
       </div>
     );
