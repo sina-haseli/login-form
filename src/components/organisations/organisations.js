@@ -59,10 +59,10 @@ class Organisations extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-2 col-sm-12 colside">
+          <div className="col-xl-2 col-lg-2 col-sm-12 colside">
             <Sider />
           </div>
-          <div className="col-xl-11 col-sm-12  colcontent">
+          <div className="col-xl-11 col-lg-10 col-sm-12  colcontent">
             <h1>Dashboard</h1>
             <img src={home} />
             <h4>• Admin • My Profile</h4>
