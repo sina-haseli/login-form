@@ -52,29 +52,15 @@ class Organisations extends Component {
 
   render() {
     return (
-      <div className="app">
-        <Header />
-        <div className="app-body">
-          <Sider />
-          <div className="content">
-            <h1>Organisations</h1>
-            <img src={home} />
-            <h4>• Organisations</h4>
-            <div className="adminClass">
-              <h1 className="adminName" />
-              <Button>Add Organisation</Button>
-              <br />
-              <hr />
-              <Table
-                columns={columns}
-                //rowKey={record => record.login.uuid}
-                dataSource={this.state.data}
-                pagination={this.state.pagination}
-                loading={this.state.loading}
-                //onChange={this.handleTableChange}
-              />
-            </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <Header />
           </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-3" />
+          <div className="col-lg-9" />
         </div>
       </div>
     );
