@@ -4,35 +4,39 @@
 }
 
 .sideNav{
+    display: inline-block;
     width: 100%;
     height: 100vh;
     background-color: #0799D4;
-    display:flex;
     list-style: none;
     position: relative;
-    margin-right: 2px;
-}
-.list{
-    list-style: none;
-    padding-top: 150px;
-}
-.list li{
-    list-style: none;
-    margin-left: -26px;
-    width: 160px;
-    height: 47px;
-    padding-top: 7px;
-}
-.list li:hover{
-    background-color:#2774A0 ;
-    border-radius: 9px;
+    padding-left: 0px;
+    padding-top: 55%;
 }
 
-.active img{
-    width: 18px;
-    height: 13px;
-    margin-top: 187px;
-    margin-bottom: 19px;
+
+.sideNav li{
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+.sideNav li:hover{
+    background-color:#2774A0 ;
+}
+
+.active1 {
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+.active1 img{
+    position: relative;
+    left: 5%;
+}
+.active1 p{
+    display: inline-block;
+    position: relative;
+    left: 10%;
 }
 a{
     color: white;
@@ -41,68 +45,11 @@ a:hover{
     color: white;
 }
 
-.active p{
-    margin-top:-42px ;
-    margin-left: 32px;
-    line-height: 30px;
+.icon{
     position: relative;
-    display: block;
-    height: auto;
-    white-space: nowrap;
-}
-.active1 p{
-    margin-top:-42px ;
-    margin-left: 32px;
-    line-height: 30px;
-    position: relative;
-    display: block;
-    height: auto;
-    white-space: nowrap;
+    font-size: 20px!important;
+    color: #0799D4!important;
+    left: 31% !important;
+    margin-right: 3%;
 }
 
-.active1 img{
-    width: 18px;
-    height: 13px;
-    margin-top: 8px;
-    margin-bottom: 19px;
-}
-
-.icon0{
-    position: absolute;
-    top: 153px;
-    left: 135px;
-    font-size: 20px;
-    color: #0799D4;
-}
-
-.icon1{
-    position: absolute;
-    top: 202px;
-    left: 135px;
-    font-size: 20px;
-    color: #0799D4;
-}
-
-.icon2{
-    position: absolute;
-    top: 247px;
-    left: 135px;
-    font-size: 20px;
-    color: #0799D4;
-}
-
-.icon3{
-    position: absolute;
-    top: 295px;
-    left: 135px;
-    font-size: 20px;
-    color: #0799D4;
-}
-
-.icon4{
-    position: absolute;
-    top: 343px;
-    left: 135px;
-    font-size: 20px;
-    color: #0799D4;
-}

@@ -11,18 +11,17 @@ class Sider extends Component {
         return (
             <div className="container">
                 <ul className="sideNav">
-                   <div className="list">
-                    <li className="active1"><a href="../mainPage/mainPage.jsx"><img src={dashboard}/><p>Dashboard</p></a><span className="icon0"> <i
-                        className="fas fa-angle-right"></i></span></li>
-                    <li className="active1"><a href="../organisations/organisations.js"><img src={book}/><p>Organisations</p></a><span className="icon1"> <i
-                        className="fas fa-angle-right"></i></span></li>
-                    <li className="active1"><a href="#"><img src={star}/><p>Staff</p></a><span className="icon2"> <i
-                        className="fas fa-angle-right"></i></span></li>
-                    <li className="active1"><a href="#"><img src={user}/><p>Patients</p></a><span className="icon3"> <i
-                        className="fas fa-angle-right"></i></span></li>
-                    <li className="active1"><a href="#"><img src={setting}/><p>Settings</p></a><span className="icon4"> <i
-                        className="fas fa-angle-right"></i></span></li>
-                   </div>
+                    <li className="active1"><div className="link"><a href="../mainPage/mainPage.jsx"><img src={dashboard} className="img"/><p>Dashboard</p><span className="icon"> <i
+                        className="fas fa-angle-right"></i></span></a></div></li>
+                    <li className="active1"><div className="link"><a href="../organisations/organisations.js"><img src={book}/><p>Organisations</p></a><span className="icon"> <i
+                        className="fas fa-angle-right"></i></span></div></li>
+                    <li className="active1"><div className="link"><a href="#"><img src={star}/><p>Staff</p></a><span className="icon"> <i
+                        className="fas fa-angle-right"></i></span></div></li>
+                    <li className="active1"><div className="link"><a href="#"><img src={user}/><p>Patients</p></a><span className="icon"> <i
+                        className="fas fa-angle-right"></i></span></div></li>
+                    <li className="active1"><div className="link"><a href="#"><img src={setting}/><p>Settings</p></a><span className="icon"> <i
+                        className="fas fa-angle-right"></i></span></div></li>
+
                 </ul>
             </div>
         );
