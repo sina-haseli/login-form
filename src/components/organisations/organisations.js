@@ -68,8 +68,9 @@ class Organisations extends Component {
             <img src={home} />
             <h4>• Admin • My Profile</h4>
             <div className="jumbotron bg-white tablejumb">
-              <Button className="button">
-                Add Organization <img src={plus} />
+              <Button className="button ant-btn-lg ">
+                <p className="py-1  ">Add Organization</p>
+                <img src={plus} />
               </Button>
               <hr className="my-3 bg-dark" />
             </div>
