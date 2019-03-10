@@ -6,6 +6,7 @@ import { Button } from "antd";
 import "./organisations.css";
 import { Table } from "antd";
 //import reqwest from "reqwest";
+import plus from "../../Images/button_plus.png";
 
 const columns = [
   {
@@ -67,6 +68,9 @@ class Organisations extends Component {
             <img src={home} />
             <h4>• Admin • My Profile</h4>
             <div className="jumbotron bg-white tablejumb">
+              <Button className="button">
+                Add Organization <img src={plus} />
+              </Button>
               <hr className="my-3 bg-dark" />
             </div>
           </div>

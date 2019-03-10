@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50691798-1bbf-4297-a6a0-b21734b11b48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/Unconfirmed 993088.crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/button_plus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisations/organisations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisations/organisations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisations/organisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisations/organisations.js" afterDir="false" />
     </list>
@@ -33,11 +34,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="59" />
+          <entry key="css" value="60" />
           <entry key="html" value="2" />
           <entry key="js" value="89" />
           <entry key="json" value="6" />
-          <entry key="jsx" value="24" />
+          <entry key="jsx" value="25" />
           <entry key="md" value="2" />
           <entry key="patch" value="2" />
           <entry key="svg" value="2" />
@@ -45,10 +46,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="59" />
+          <entry key="CSS" value="60" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="5" />
-          <entry key="JSX Harmony" value="23" />
+          <entry key="JSX Harmony" value="24" />
           <entry key="JavaScript" value="89" />
           <entry key="Markdown" value="2" />
           <entry key="PATCH" value="2" />
@@ -64,9 +65,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5648" />
+          <entry key="css" value="5941" />
           <entry key="html" value="28" />
-          <entry key="js" value="12580" />
+          <entry key="js" value="12715" />
           <entry key="json" value="128" />
           <entry key="jsx" value="2236" />
           <entry key="md" value="538" />
@@ -75,11 +76,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5648" />
+          <entry key="CSS" value="5941" />
           <entry key="HTML" value="29" />
           <entry key="JSON" value="128" />
           <entry key="JSX Harmony" value="2186" />
-          <entry key="JavaScript" value="12579" />
+          <entry key="JavaScript" value="12714" />
           <entry key="Markdown" value="538" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
@@ -88,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="514">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -100,20 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/sider/sider.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="380">
+              <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -139,7 +131,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/prettierrc.js" />
         <option value="$PROJECT_DIR$/prettier.config.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/confirm.js" />
         <option value="$PROJECT_DIR$/src/components/emailVerify/landing.css" />
@@ -178,8 +169,9 @@
         <option value="$PROJECT_DIR$/src/components/sider/sider.css" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/sider/sider.jsx" />
-        <option value="$PROJECT_DIR$/src/components/organisations/organisations.css" />
+        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/organisations/organisations.js" />
+        <option value="$PROJECT_DIR$/src/components/organisations/organisations.css" />
       </list>
     </option>
   </component>
@@ -328,10 +320,10 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sina haseli\WebstormProjects\login\src\Images" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sina haseli\WebstormProjects\login\src\Images" />
     </key>
   </component>
@@ -415,21 +407,7 @@
       <workItem from="1552117130388" duration="9085000" />
       <workItem from="1552129990675" duration="1483000" />
       <workItem from="1552131500800" duration="76000" />
-      <workItem from="1552209045882" duration="2555000" />
-    </task>
-    <task id="LOCAL-00054" summary="fix tpyo">
-      <created>1550831558574</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1550831558574</updated>
-    </task>
-    <task id="LOCAL-00055" summary="fix tpyo">
-      <created>1550998758909</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1550998758909</updated>
+      <workItem from="1552209045882" duration="5784000" />
     </task>
     <task id="LOCAL-00056" summary="fix tpyo">
       <created>1550999048103</created>
@@ -760,15 +738,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552209755065</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary=" Initial commit">
+      <created>1552211607133</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1552211607133</updated>
+    </task>
+    <task id="LOCAL-00104" summary=" Initial commit">
+      <created>1552213894248</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1552213894248</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101796000" />
+    <option name="totallyTimeSpent" value="105025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="725" y="4" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -978,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/changePassword/changePassword.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1110,16 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1147,20 +1121,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.css">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="23">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/editprofile/editProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="514">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/organisations/organisations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
         </state>
       </provider>
     </entry>

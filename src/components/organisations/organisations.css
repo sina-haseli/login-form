@@ -54,3 +54,12 @@
     width: 87%;
     height: 63%;
 }
+.tablejumb button{
+    background-color: #0799D4;
+    color: white;
+    width: 11%;
+}
+.button img{
+    position: absolute;
+    left: 88%;
+}
