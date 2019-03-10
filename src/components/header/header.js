@@ -51,7 +51,7 @@ class Header extends Component {
   }
   render() {
     return (
-      <div className="header ">
+      <div className="header col-12">
         <img src={logo} alt="yop" className="logo" />
 
         <div className="header-right">

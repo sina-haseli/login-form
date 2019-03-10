@@ -1,4 +1,4 @@
-.colHeader{
+.colheader{
     padding: 0px;
 }
 
@@ -6,24 +6,24 @@
     height:calc(100vh - 48px);
     padding: 0px;
     position: absolute;
-    width: 13%;
+    width: 11% !important;
 }
 
 .colcontent{
     position:absolute ;
-    width: 87%!important;
+    width: 89%!important;
     height:calc(100vh - 48px);
     background-color: #ECECEC;
-    margin-left: 13%;
+    margin-left: 11%;
 }
 
 .colcontent h1{
     font-family: Roboto-Medium, serif;
     font-size: 30px;
     color: #005792;
-    position: relative;
+    position: absolute;
     top: 15%;
-    left: 5%;
+    left: 6%;
     size: 30px!important;
     width: 162px;
     height: 35px;
