@@ -58,14 +58,17 @@ class Organisations extends Component {
             <Header />
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm-2  colside">
+        <div className="row row1">
+          <div className="col-sm-1-5  colside">
             <Sider />
           </div>
-          <div className="col-sm-11  no-gutters  colcontent">
+          <div className="col-sm-10-5  no-gutters  colcontent">
             <h1>Dashboard</h1>
             <img src={home} />
             <h4>• Admin • My Profile</h4>
+            <div className="jumbotron bg-white tablejumb">
+              <hr className="my-3 bg-dark" />
+            </div>
           </div>
         </div>
       </div>

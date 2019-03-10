@@ -1,4 +1,5 @@
 body {
+  position: relative;
   background-image: url("./Images/bg_graidents.svg");
   margin: 0;
   padding: 0;
