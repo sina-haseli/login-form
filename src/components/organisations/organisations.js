@@ -54,7 +54,7 @@ class Organisations extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xl-12  ">
+          <div className="col-12 colHeader ">
             <Header />
           </div>
         </div>

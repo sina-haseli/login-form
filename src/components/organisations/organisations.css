@@ -1,3 +1,7 @@
+.colHeader{
+    padding: 0px;
+}
+
 .colside{
     height:calc(100vh - 48px);
     padding: 0px;
