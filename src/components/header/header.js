@@ -6,6 +6,8 @@ import logo from "../../Images/logo_splash.svg";
 import logout from "../../Images/icon_logout.svg";
 import { Menu, Dropdown, Icon } from "antd";
 //i need to fix header  :)
+//help me if you know what's going on here ? :)
+
 const menu = (
   <Menu>
     <Menu.Item key="0">
